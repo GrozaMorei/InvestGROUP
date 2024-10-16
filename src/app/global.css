@@ -33,11 +33,28 @@ button{cursor: pointer; background: transparent; color: inherit;}
 button::-moz-focus-inner{padding: 0;border: 0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-ul li{list-style: none;}
+ul, li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-.header {
-	background-color: #fff;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter.woff2') format('woff2'),
+       url('../../public/fonts/Inter.woff') format('woff'),
+			 url('../../public/fonts/Inter.ttf') format('truetype');
+  font-weight: normal; /* или bold, если нужно */
+  font-style: normal; /* или italic, если нужно */
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	font-family: 'Inter';
+}
+.main {
+	flex-grow: 1;
 }

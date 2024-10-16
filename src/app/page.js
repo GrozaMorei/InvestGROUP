@@ -1,10 +1,9 @@
+import '../styles/pages.css';
+
 export default function Page() {
   return (
-    <article>
-      <section>
-        <h1>Привет, мир!</h1>
-        <p>Как ваши дела?</p>
-      </section>
-    </article>
+    <section className='test'>
+      <h1 className='test-title'>Страница: Главная</h1>
+    </section>
   );
 }
