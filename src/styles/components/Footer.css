@@ -1,14 +1,14 @@
 .footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
 
-	font-size: 20px;
+  font-size: 20px;
 
-	color: #ffffff;
-	background-color: #000000;
+  color: #ffffff;
+  background-color: #000000;
 }
 .footer-title {
-	font-weight: 800;
+  font-weight: 800;
 }
