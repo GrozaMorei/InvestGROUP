@@ -1,4 +1,4 @@
-import './Header.css'; // Подключаем стили
+import '../styles/components/Header.css'; // Подключаем стили
 
 // Разметка хедера
 export default function Header() {

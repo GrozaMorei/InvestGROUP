@@ -1,7 +1,7 @@
 // Импорт компонентов
-import Header from './components/Header'
+import Header from '../components/Header'
 // Импорт глобальных стилей
-import './global.css'
+import '../styles/global.css'
 
 
 export default function RootLayout({ children }) {
