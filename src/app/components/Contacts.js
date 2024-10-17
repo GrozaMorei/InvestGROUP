@@ -1,5 +1,5 @@
 // Импорт стилей
-import '../../styles/components/Contacts.css'
+import '../../styles/components/Contacts.css';
 
 export default function Contacts() {
   return (
@@ -21,24 +21,26 @@ export default function Contacts() {
                     г. Кокчетав, ул. Ж. Ташенова 129Б (Рынок Восточный)
                   </p>
                 </div>
-                <div className='divider'></div>
+                <div className="divider"></div>
               </li>
 
               <li className="contact-item">
                 <h4 className="item-title">Отдел продаж:</h4>
-                <div className='item-inner-2'>
+                <div className="item-inner-2">
                   <p className="item-text">+7 (777) 490-00-91</p>
                   <p className="item-text">opt.sultan@mail.ru</p>
                 </div>
-                <div className='divider'></div>
+                <div className="divider"></div>
               </li>
 
               <li className="contact-item">
                 <h4 className="item-title">Данные налогоплательщика:</h4>
                 <div className="item-inner">
                   <img src="/icons/file.svg" className="item-img"></img>
-                  <p className="item-text">ИП Катран Д.С <br></br>
-                    ИИН:860113450858</p>
+                  <p className="item-text">
+                    ИП Катран Д.С <br></br>
+                    ИИН:860113450858
+                  </p>
                 </div>
               </li>
             </ul>
