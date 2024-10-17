@@ -31,10 +31,12 @@ const ProductCard = ({ product }) => {
               margin: 16px;
               color: white; /* Цвет текста для контраста на фоне изображения */
               box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для карточки */
+              gap: 20 px;
+              box-sizing: border-box;
             }
             .product-image {
               width: 100%;
-              height: auto;
+              height: 300px;
               display: block;
             }
             .product-info {

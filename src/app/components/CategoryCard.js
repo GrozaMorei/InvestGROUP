@@ -12,6 +12,8 @@ const CategoryCard = ({ title, image }) => {
                     margin: 8px;
                     flex: 1 1 calc(20% - 16px);
                     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    box-sizing: border-box;
+                    gap: 20px;
                 }
                 .category-card img {
                     max-width: 100%;
