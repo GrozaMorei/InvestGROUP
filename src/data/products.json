@@ -9,7 +9,7 @@
       "barcode": "4604049097548",
       "brand": "AOS",
       "description": "Средство для мытья посуды",
-      "image": "./public/media/images/AOS_white.jpeg"
+      "image": "/images/AOS_white.jpeg"
   },
   {
       "id": 2,
@@ -21,7 +21,7 @@
       "barcode": "4604049097548",
       "brand": "AOS",
       "description": "Средство для мытья посуды",
-      "image": "./public/media/images/AOS_crystal.jpeg"
+      "image": "/images/AOS_crystal.jpeg"
   },
   {
       "id": 3,
@@ -33,7 +33,7 @@
       "barcode": "4604049097548",
       "brand": "Ariel",
       "description": "автмт гель CVC жидкое в растворимых капсулах",
-      "image": "./public/media/images/Ariel_crystal.jpeg"
+      "image": "/images/Ariel_pods.jpeg"
   },
   {
       "id": 4,
@@ -45,7 +45,7 @@
       "barcode": "4604049097548",
       "brand": "Bimax",
       "description": "Порошок стиральный",
-      "image": "./public/media/images/Bimax_compact.jpeg"
+      "image": "/images/Bimax_compact.jpeg"
   },
   {
       "id": 5,
@@ -57,7 +57,7 @@
       "barcode": "4604049097548",
       "brand": "AOS",
       "description": "Средство для мытья посуды",
-      "image": "./public/media/images/AOS_white.jpeg"
+      "image": "/images/AOS_white.jpeg"
   },
   {
       "id": 6,
@@ -69,7 +69,7 @@
       "barcode": "4604049097548",
       "brand": "AOS",
       "description": "Средство для мытья посуды",
-      "image": "./public/media/images/AOS_crystal.jpeg"
+      "image": "/images/AOS_pods.jpeg"
   },
   {
       "id": 7,
@@ -81,7 +81,7 @@
       "barcode": "4604049097548",
       "brand": "Ariel",
       "description": "автмт гель CVC жидкое в растворимых капсулах",
-      "image": "./public/media/images/Ariel_crystal.jpeg"
+      "image": "/images/Ariel_crystal.jpeg"
   },
   {
       "id": 8,
@@ -93,6 +93,6 @@
       "barcode": "4604049097548",
       "brand": "Bimax",
       "description": "Порошок стиральный",
-      "image": "./public/media/images/Bimax_compact.jpeg"
+      "image": "/images/Bimax_compact.jpeg"
   }
 ]
