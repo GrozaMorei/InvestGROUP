@@ -1,6 +1,7 @@
 
 "use client"; 
 
+
 const ProductCard = ({ product }) => {
     const handleAddToCart = () => {
       // Логика добавления товара в корзину
@@ -21,9 +22,6 @@ const ProductCard = ({ product }) => {
           </div>
     
           <style jsx>{`
-            .background {
-              background-image: url('../src/media/images/AOS_white.jpg');
-            }
             .product-card {
               position: relative;
               border-radius: 8px;
