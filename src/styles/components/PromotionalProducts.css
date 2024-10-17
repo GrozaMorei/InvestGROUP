@@ -1,20 +1,3 @@
-.product-list {
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-}
-
-.product-item {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    margin-bottom: 20px 0px; 
-    box-sizing: border-box; 
-
-}
-
 .product-card {
     position: relative;
     border: 1px solid #ddd; 
@@ -24,6 +7,20 @@
     background-color: #fff; 
 }
 
-.poduct-title {
-    font-weight: bold;
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.products-title {
+    width: 455px;
+    height: 48px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 48px;
+    font: inter;
+    font-weight: 500;
+    color: var(--accent-color);
 }

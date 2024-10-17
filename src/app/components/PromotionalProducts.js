@@ -10,13 +10,12 @@ const PromotionalProducts = () => {
             <div className='container'>
 
             <h2 className='products-title'>
-                <span style={{ color: 'yellow' }}>АКЦИОННЫЕ</span>
-                <span style={{ color: 'white' }}>ТОВАРЫ</span>
+                АКЦИОННЫЕ <span style={{ color: 'black' }}> ТОВАРЫ</span>
             </h2>
 
             <ul className="products-list">
                 {products.map(product => (
-                <li key={product.id} className='product-item'>
+                <li key={product.id} className=''>
                     <ProductCard product={product} />
                 </li>
                 ))}

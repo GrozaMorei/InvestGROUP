@@ -1,7 +1,5 @@
 "use client"; 
 
-import Image from 'next/image';
-
 import '../../styles/components/ProductCard.css';
 
 const ProductCard = ({ product }) => {
@@ -13,19 +11,25 @@ const ProductCard = ({ product }) => {
     return (
         <div className="product-card">
           <div className="popular-tag">Популярное</div>
-          <Image src={product.image} alt={product.name} width={150} height={200} className="product-image" />
+          <div className='container-image'>
+            <img src={product.image} alt={product.name} className="product-image" />
+          </div>
           <ul className="product-info">
-            <li>
-              <h2>{product.name}</h2>
+            <li><p className="product-weight"><img src={product.type}className="product-type" /> {product.weight} </p></li>
+            <li><p className="product-description"><b>{product.brand}</b> {product.description}</p></li>
+            <li className='product-inform'>
+              <p className="product-barcode">
+                <span className='secText'>Штрихкод: </span>{product.barcode}
+              </p>
+              <p className="product-manufacturer">
+                <span className='secText'>Производитель: 
+                </span> {product.manufacturer}
+              </p>
+              <p className="product-brand"><span className='secText'>Бренд: </span> {product.brand}</p>
             </li>
-            <p className="product-weight">Вес: {product.weight} </p>
-            <p className="product-brand">{product.brand} {product.description}</p>
-            <p className="product-barcode">Штрихкод: {product.barcode} </p>
-            <p className="product-manufacturer">Производитель: {product.manufacturer}</p>
-            <p className="product-brand">Бренд: {product.brand} </p>
-            <p className="product-price">Цена: {product.price} руб.</p>
+            <li><p className="product-price">{product.price} ₸</p></li>
             <button onClick={handleAddToCart} className="add-to-cart-button">
-              В корзину
+              В корзину <img src='/images/Vector.svg' className='icon-sale'/>
             </button>
           </ul>
         </div>
