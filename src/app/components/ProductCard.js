@@ -11,7 +11,10 @@ const ProductCard = ({ product }) => {
     return (
         <div className="product-card">
           <img src={product.image} alt={product.name} className="product-image" />
-          <div className="product-info">
+          <ul className="product-info">
+            <li>
+              <h2></h2>
+            </li>
             <h2 className="product-name">{product.name}</h2>
             <p className="product-brand">Фирма: {product.brand}</p>
             <p className="product-weight">Вес: {product.weight} </p>
@@ -19,7 +22,7 @@ const ProductCard = ({ product }) => {
             <button onClick={handleAddToCart} className="add-to-cart-button">
               В корзину
             </button>
-          </div>
+          </ul>
     
           <style jsx>{`
             .product-card {
@@ -31,7 +34,6 @@ const ProductCard = ({ product }) => {
               margin: 16px;
               color: white; /* Цвет текста для контраста на фоне изображения */
               box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для карточки */
-              gap: 20 px;
               box-sizing: border-box;
             }
             .product-image {

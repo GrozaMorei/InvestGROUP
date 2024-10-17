@@ -1,3 +1,5 @@
+//import categories from './categories.json';
+
 const CategoryCard = ({ title, image }) => {
     return (
         <div className="category-card">
@@ -10,10 +12,9 @@ const CategoryCard = ({ title, image }) => {
                     padding: 16px;
                     text-align: center;
                     margin: 8px;
-                    flex: 1 1 calc(20% - 16px);
+                    flex: 0 0 calc(20% - 16px);
                     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                     box-sizing: border-box;
-                    gap: 20px;
                 }
                 .category-card img {
                     max-width: 100%;
