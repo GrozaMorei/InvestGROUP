@@ -1,0 +1,79 @@
+.map-inner {
+	position: relative;
+}
+
+.map-img {
+	border-radius: 10px;
+	width: 100%;
+}
+
+.contact-inner {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+
+	width: 800px;
+	padding: 60px 90px 70px 50px;
+
+	background: rgba(255, 255, 255, 0);
+	-webkit-backdrop-filter: blur(30px);
+	backdrop-filter: blur(9px);
+	border-radius: 10px;
+}
+
+.contact-title {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.contact-description {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 15px;
+	color: var(--secondary-color);
+}
+
+.contact-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin-top: 25px;
+}
+
+.contact-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 90px;
+	width: 270px;
+}
+
+.contact-item:nth-child(3) {
+	height: auto;
+}
+
+.item-title {
+	margin-left: 30px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.item-inner {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+}
+
+.item-inner-2 {
+	margin-left: 30px;
+}
+
+.item-text {
+	font-size: 14px;
+	font-weight: 400px;
+}
+
+.divider {
+	border-top: 1px dashed var(--secondary-color);
+	width: 100%;
+}
