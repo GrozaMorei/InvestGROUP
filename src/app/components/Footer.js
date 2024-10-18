@@ -90,6 +90,24 @@ export default function Footer() {
 
           <li className="columns">
             <h4 className="columns-title">Контакты:</h4>
+
+            <div className="number-inner">
+              <p className="tel">+7 (777) 490-00-91</p>
+              <p className="contact-text">время работы: 9:00-20:00</p>
+              <Link className="number-link" href="/">
+                Заказать звонок
+              </Link>
+            </div>
+
+            <div className="email-inner">
+              <p className="email">opt.sultan@mail.ru</p>
+              <p className="contact-text">На связи в любое время</p>
+            </div>
+
+            <div className="card-inner">
+              <img src="/icons/visa.svg"></img>
+              <img src="/icons/mastercard.svg"></img>
+            </div>
           </li>
         </ul>
       </div>

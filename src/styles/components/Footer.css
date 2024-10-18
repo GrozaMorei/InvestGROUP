@@ -70,7 +70,6 @@
   right: 8px;
 }
 
-/* Вторая и третья колонны */
 .columns-title {
   font-size: 20px;
   font-weight: 600;
@@ -90,7 +89,6 @@
   color: var(--accent-color);
 }
 
-/* Четвертая колонна */
 .button-price {
   display: flex;
   align-items: center;
@@ -112,4 +110,42 @@
   display: flex;
   gap: 10px;
   margin-top: 15px;
+}
+
+.columns:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.number-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tel {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact-text {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.number-link {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.email {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card-inner {
+  display: flex;
+  gap: 5px;
 }
