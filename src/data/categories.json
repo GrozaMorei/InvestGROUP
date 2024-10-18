@@ -1,27 +1,27 @@
 [
-    {
-        "id": 1,
-        "title": "Бытовая химия",
-        "image": "/images/Household_chemicals.png"
-    },
-    {
-        "id": 2,
-        "title": "Косметика и гигиена",
-        "image": "/images/Cosmetics_hygiene.png"
-    },
-    {
-        "id": 3,
-        "title": "Товары для дома",
-        "image": "/images/Household_goods.png"
-    },
-    {
-        "id": 4,
-        "title": "Товары для детей и мам",
-        "image": "/images/Products_children_mothers.png"
-    },
-    {
-        "id": 5,
-        "title": "Посуда",
-        "image": "/images/Dishes.png"
-    }
+  {
+    "id": 1,
+    "title": "Бытовая химия",
+    "image": "/images/Household_chemicals.png"
+  },
+  {
+    "id": 2,
+    "title": "Косметика и гигиена",
+    "image": "/images/Cosmetics_hygiene.png"
+  },
+  {
+    "id": 3,
+    "title": "Товары для дома",
+    "image": "/images/Household_goods.png"
+  },
+  {
+    "id": 4,
+    "title": "Товары для детей и мам",
+    "image": "/images/Products_children_mothers.png"
+  },
+  {
+    "id": 5,
+    "title": "Посуда",
+    "image": "/images/Dishes.png"
+  }
 ]

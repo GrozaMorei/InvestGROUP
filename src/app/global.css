@@ -90,17 +90,17 @@ h6 {
   font-family: 'Inter';
   src:
     /* url('../../public/fonts/Inter.woff2') format('woff2'),
-    url('../../public/fonts/Inter.woff') format('woff'), */
-    url('../../public/fonts/Inter.ttf') format('truetype');
+    url('../../public/fonts/Inter.woff') format('woff'), */ url('../../public/fonts/Inter.ttf')
+    format('truetype');
   /* font-weight: normal; или bold, если нужно */
   font-style: normal; /* или italic, если нужно */
 }
 
-:root { 
-  --primary-color: #111111; 
-  --secondary-color: #3F4E65; 
-  --accent-color: #FFC85E; 
-  --green-color: #1FD85D; 
+:root {
+  --primary-color: #111111;
+  --secondary-color: #3f4e65;
+  --accent-color: #ffc85e;
+  --green-color: #1fd85d;
 }
 
 .body {
@@ -113,8 +113,8 @@ h6 {
 }
 
 .container {
-	max-width: 1360px;
-	margin: 0 auto;	
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .main {
