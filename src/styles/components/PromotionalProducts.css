@@ -1,0 +1,26 @@
+.product-card {
+    position: relative;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.products-title {
+    width: 455px;
+    height: 48px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 48px;
+    font: inter;
+    font-weight: 500;
+    color: var(--accent-color);
+}
