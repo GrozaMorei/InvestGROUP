@@ -1,15 +1,32 @@
 .category-card {
-    border: 1px solid #ccc;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width: 250px;
+    height: 291px;
     border-radius: 8px;
     padding: 16px;
-    text-align: center;
-    margin: 8px;
-    flex: 0 0 calc(20% - 16px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
+    margin: 8px;    
+    border-radius: 20px;
 }
+
 .category-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f7f2f2;  
+    border-radius: 20px;
+}
+
+.category-image:hover {
+    background-color: #f0eaea;  
+}
+
+.category-title {
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 20px;
 }

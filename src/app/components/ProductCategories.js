@@ -10,8 +10,7 @@ const ProductCategories = () => {
         <div className='container'>
 
           <h2 className='categories-title'>
-            <span style={{ color: 'yellow' }}>КАТЕГОРИИ</span>
-            <span style={{ color: 'white' }}>ТОВАРОВ</span>
+            КАТЕГОРИИ<span style={{ color: 'black' }}> ТОВАРОВ</span>
           </h2>
 
           <p className='categories-description'>10 000+ ходовых позиций по спецмальным ценам</p>
