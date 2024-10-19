@@ -2,9 +2,6 @@
   display: grid;
   place-content: center;
   text-align: center;
-  width: 250px;
-  height: 291px;
-  border-radius: 8px;
   padding: 16px;
   margin: 8px;
   border-radius: 20px;
@@ -27,7 +24,17 @@
 
 .category-card__info {
   font-weight: 500;
-  line-height: 20px;
   margin-top: 12px;
   text-align: center;
+}
+
+@media (max-width: 720px) {
+  .category-card {
+    width: 140px;
+  }
+
+  .category-card__image {
+    width: 140px;
+    height: 140px;
+  }
 }

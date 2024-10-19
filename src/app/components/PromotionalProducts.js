@@ -4,6 +4,8 @@ import ProductCard from '../components/ProductCard';
 
 import products from '../../data/products.json';
 
+import Slider from 'react-slick';
+
 const PromotionalProducts = () => {
   return (
     <section className="promo-products">
@@ -11,7 +13,7 @@ const PromotionalProducts = () => {
         <h2 className="promo-products__title">
           <span>АКЦИОННЫЕ</span> ТОВАРЫ
         </h2>
-
+        
         <ul className="promo-products__list">
           {products.map((product) => (
             <li key={product.id}>
