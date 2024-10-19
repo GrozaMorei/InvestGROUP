@@ -13,7 +13,7 @@ const ProductCategories = () => {
         </h2>
 
         <span className="product-categories__description">
-          10 000+ ходовых позиций по спецмальным ценам
+          10 000+ ходовых позиций по специальным ценам
         </span>
 
         <ul className="product-categories__list">
