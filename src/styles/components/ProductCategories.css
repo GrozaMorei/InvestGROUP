@@ -18,5 +18,9 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: 500;
+}
+
+.product-categories__title span {
   color: var(--accent-color);
 }
+

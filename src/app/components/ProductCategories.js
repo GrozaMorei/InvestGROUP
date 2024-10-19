@@ -9,16 +9,16 @@ const ProductCategories = () => {
     <section className="product-categories">
       <div className="container">
         <h2 className="product-categories__title">
-          КАТЕГОРИИ<span style={{ color: 'black' }}> ТОВАРОВ</span>
+          <span>КАТЕГОРИИ </span> ТОВАРОВ
         </h2>
 
-        <p className="product-categories__description">
+        <span className="product-categories__description">
           10 000+ ходовых позиций по спецмальным ценам
-        </p>
+        </span>
 
         <ul className="product-categories__list">
           {categories.map((category) => (
-            <li key={category.id}>
+            <li key={ category.id }>
               <CategoryCard category={category} />
             </li>
           ))}
