@@ -25,8 +25,9 @@
   background-color: #f0eaea;
 }
 
-.category-card__title {
-  margin-top: 10px;
+.category-card__info {
   font-weight: 500;
   line-height: 20px;
+  margin-top: 12px;
+  text-align: center;
 }

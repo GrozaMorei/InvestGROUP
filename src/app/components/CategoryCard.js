@@ -7,13 +7,15 @@ const CategoryCard = ({ category }) => {
   };
 
   return (
-    <div className="category-card__button">
-      <img
-        src={category.image}
-        alt={category.title}
-        className="category-card__image"
-        onClick={handleMoveToCategory}
-      />
+    <div className="category-card">
+      <button>
+        <img
+          src={category.image}
+          alt={category.title}
+          className="category-card__image"
+          onClick={handleMoveToCategory}
+        />
+      </button>
       <ul className="category-card__info">
         <li>
           <span className="category-card__title">{category.title}</span>
