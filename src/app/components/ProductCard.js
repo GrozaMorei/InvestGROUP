@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
     // Логика добавления товара в корзину
     console.log(`Добавлено в корзину: ${product.name}`);
   };
-
+  
   return (
     <div className="product-card">
       <div className="product-card__image">

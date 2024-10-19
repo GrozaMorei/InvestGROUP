@@ -11,12 +11,12 @@ const CategoryCard = ({ category }) => {
       <img
         src={category.image}
         alt={category.title}
-        className="category-image"
+        className="category-card__image"
         onClick={handleMoveToCategory}
       />
-      <ul className="category-info">
+      <ul className="category-card__info">
         <li>
-          <p className="category-title">{category.title}</p>
+          <p className="category-card__title">{category.title}</p>
         </li>
       </ul>
     </div>

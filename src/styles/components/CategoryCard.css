@@ -10,7 +10,7 @@
   border-radius: 20px;
 }
 
-.category-image {
+.category-card__image {
   width: 250px;
   height: 250px;
   display: flex;
@@ -21,11 +21,11 @@
   border-radius: 20px;
 }
 
-.category-image:hover {
+.category-card__image:hover {
   background-color: #f0eaea;
 }
 
-.category-title {
+.category-card__title {
   margin-top: 10px;
   font-weight: 500;
   line-height: 20px;

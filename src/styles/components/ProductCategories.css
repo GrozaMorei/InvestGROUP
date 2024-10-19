@@ -1,17 +1,17 @@
-.categories-description {
+.product-categories__description {
   color: var(--secondary-color);
   margin-top: 10px;
   margin-bottom: 30px;
 }
 
-.categories-list {
+.product-categories__list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 20px;
 }
 
-.categories-title {
+.product-categories__title {
   width: 455px;
   height: 48px;
   margin-top: 80px;
