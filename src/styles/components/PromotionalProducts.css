@@ -16,8 +16,15 @@
 }
 
 @media screen and (max-width: 720) {
-  .promo-products__list {
-    display: block;
-    
+  .promo-products {
+    width: 290px;
+  } 
+  
+  .promo-products__slider {
+    max-width: 290px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #f9f9f9; 
   }
 }
