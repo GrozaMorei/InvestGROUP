@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 800;
+  font-size: 20px;
+
+  padding: 20px 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header-title {
+  font-weight: 800;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.list-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
