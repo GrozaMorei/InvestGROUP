@@ -1,6 +1,6 @@
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../../styles/components/Offers.css';
+import './Offers.scss';
 import Slider from 'react-slick';
 
 export default function Offers() {
@@ -18,6 +18,7 @@ export default function Offers() {
   return (
     <section className="offers">
       <div className="offers__container container">
+
         <Slider {...settings}>
           {offers.map((num) => (
             <div key={num}>
@@ -37,6 +38,7 @@ export default function Offers() {
             </div>
           ))}
         </Slider>
+				
       </div>
     </section>
   );

@@ -1,15 +1,17 @@
 'use client';
 
-import '../styles/index.css';
-
 // Import components
-import Contacts from './components/Contacts';
-import Brands from './components/Brands';
-import Offers from './components/Offers';
+import Contacts from './components/Contacts/Contacts.jsx';
+import Brands from './components/Brands/Brands.jsx';
+import Offers from './components/Offers/Offers.jsx';
+import ProductCategories from './components/ProductCategories/ProductCategories.jsx'
+import PromotionalProducts from './components/PromotionalProducts/PromotionalProducts.jsx'
 
 export default function Page() {
   return (
     <>
+      <PromotionalProducts />
+      <ProductCategories />
       <Offers />
       <Brands />
       <Contacts />

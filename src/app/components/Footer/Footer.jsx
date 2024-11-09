@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import '../../styles/components/Footer.css';
+import './Footer.scss';
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container container">
+
         {/* Блок логотипа и описания компании (1 Колонна) */}
         <div className="footer__company">
           <div className="footer__logo">
@@ -22,10 +23,10 @@ export default function Footer() {
           <form className="footer__subscribe">
             <input
               type="email"
-              className="footer__input"
+              className="footer__subscribe-input"
               placeholder="Введите ваш E-mail"
             />
-            <button type="submit" className="footer__button">
+            <button type="submit" className="footer__subscribe-button">
               &gt;
             </button>
           </form>
@@ -138,6 +139,7 @@ export default function Footer() {
             <img src="/icons/visa.svg" alt="Visa"></img>
             <img src="/icons/mastercard.svg" alt="Mastercard"></img>
           </div>
+
         </div>
       </div>
     </footer>

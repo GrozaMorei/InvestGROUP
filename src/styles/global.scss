@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 * {
   padding: 0;
@@ -5,6 +7,7 @@
   border: 0;
   -webkit-tap-highlight-color: transparent;
 }
+
 *,
 *:before,
 *:after {
@@ -12,14 +15,17 @@
   -webkit-box-sizing: border-box;
   box-sizing: inherit;
 }
+
 :focus,
 :active {
   outline: none;
 }
+
 a:focus,
 a:active {
   outline: none;
 }
+
 a {
   color: inherit;
 }
@@ -43,6 +49,7 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
 textarea {
@@ -52,44 +59,41 @@ textarea {
 input::-ms-clear {
   display: none;
 }
+
 button {
   cursor: pointer;
   background: transparent;
   color: inherit;
 }
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
 a,
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 ul,
 li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
 
-/* ПОДКЛЮЧЕНИЕ ШРИФТА (позже разобраться) */
+/* ПОДКЛЮЧЕНИЕ ШРИФТА */
 @font-face {
   font-family: 'Inter';
   src: url('../../public/fonts/Inter.ttf') format('truetype');
   font-style: normal;
-}
-
-/* ПАЛИТРА САЙТА */
-:root {
-  --primary-color: #111111;
-  --secondary-color: #3f4e65;
-  --accent-color: #ffc85e;
-  --hover-color: #ff9900;
-  --green-color: #1fd85d;
 }
 
 /* ГЛОБАЛЬНЫЕ СТИЛИ */
@@ -97,11 +101,9 @@ img {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
   font-family: 'Inter';
   font-size: 14px;
-  font-family: 400;
-
+  font-weight: 400;
   color: var(--primary-color);
 }
 
@@ -115,12 +117,5 @@ img {
   display: flex;
   flex-direction: column;
   gap: 100px;
-
   margin: 100px 0;
-}
-
-/* Стилизация контейнера */
-.container {
-  max-width: 1360px;
-  margin: 0 auto;
 }

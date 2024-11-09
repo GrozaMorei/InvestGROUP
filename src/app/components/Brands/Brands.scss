@@ -1,34 +1,41 @@
-.brands__container {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.brands__title {
-  font-size: 48px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.brands__title span {
-  font-weight: 800;
-  color: var(--accent-color);
-}
-.brands__description {
-  font-size: 20px;
-  font-weight: 300;
+@import '../../../styles/variables.scss';
+
+.brands {
+	&__container {
+		display: flex;
+  	flex-direction: column;
+  	gap: 15px;
+	}
+
+	&__title {
+		font-size: 48px;
+  	font-weight: 500;
+  	text-transform: uppercase;
+
+		span {
+			font-weight: 800;
+  		color: $color-accent;
+		}
+	}
+
+	&__description {
+		font-size: 20px;
+  	font-weight: 300;
+	}
 }
 
-/* СТИЛИ СЛАЙДЕРА */
+// СТИЛИ СЛАЙДЕРА
 .brands .slick-slider {
   margin-bottom: 15px;
 }
-.brands .brands__item {
+.brands__item {
   display: flex;
   align-items: center;
   height: 80px;
   margin: 35px 10px;
   padding-inline: 15px;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px 5px #2b1c010a;
+  box-shadow: 0px 0px 15px 0px #2b1c010a;
 }
 .brands .slick-dots li button:before {
   content: '';
@@ -36,13 +43,13 @@
   width: 15px;
   margin-left: 10px;
   border-radius: 4px;
-  background-color: var(--primary-color);
+  background-color: $color-primary;
   transition: all ease 0.4s;
 }
 .brands .slick-dots li.slick-active button:before {
   width: 25px;
   margin-left: 5px;
-  background-color: var(--accent-color);
+  background-color: $color-accent;
 }
 .brands .slick-arrow {
   height: 0;
@@ -51,7 +58,7 @@
   left: 0;
 }
 
-/* АДАПТИВ */
+// АДАПТИВ
 @media (max-width: 850px) {
   .brands__title {
     font-size: 32px;
