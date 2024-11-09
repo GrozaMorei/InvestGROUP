@@ -1,8 +1,7 @@
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../../styles/components/Brands.css';
+import './Brands.scss';
 import Slider from 'react-slick';
-import Image from 'next/image';
 
 export default function Brands() {
   const brandCount = 10; // Колличество брендов
@@ -35,6 +34,7 @@ export default function Brands() {
         <span className="brands__description">От ведущих мировых брендов</span>
 
         <Slider {...settings}>
+					{/* Создается brandCount количество брендов*/}
           {brands.map((num) => (
             <div key={num}>
               <div className="brands__item">

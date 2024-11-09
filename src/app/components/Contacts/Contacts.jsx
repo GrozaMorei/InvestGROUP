@@ -1,5 +1,4 @@
-// Импорт стилей
-import '../../styles/components/Contacts.css';
+import './Contacts.scss';
 
 export default function Contacts() {
   return (

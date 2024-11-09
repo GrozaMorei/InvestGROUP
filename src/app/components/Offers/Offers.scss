@@ -1,52 +1,56 @@
-.offers__item {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 80px 110px;
-  border-radius: 10px;
-  background-image: url('/images/offers/offer.jpg'),
+@import '../../../styles/variables.scss';
+
+.offers {
+	color: #ffffff;
+
+	&__item {
+		display: flex;
+  	flex-direction: column;
+  	gap: 10px;
+  	padding: 80px 110px;
+  	border-radius: 10px;
+  	background-image: url('/images/offers/offer.jpg'),
     linear-gradient(#bdc7d1 10%, #b6bfca);
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-}
-.offers__date {
-  line-height: 21px;
-  letter-spacing: 4px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.offers__title {
-  font-size: 70px;
-  font-weight: 500;
-  line-height: 80px;
-  color: #ffffff;
-}
-.offers__title span {
-  font-weight: 800;
-}
-.offers__description {
-  font-size: 20px;
-  line-height: 30px;
-  max-width: 440px;
-  margin-top: 25px;
-  color: #ffffff;
-}
-.offers__button {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 35px 75px;
-  width: fit-content;
-  margin-top: 40px;
-  border-radius: 40px;
-  color: #ffffff;
-  background-color: var(--accent-color);
-  transition: all ease 0.4s;
-}
-.offers__button:hover {
-  background-color: var(--hover-color);
+  	background-repeat: no-repeat;
+  	background-position: right center;
+  	background-size: contain;
+	}
+	&__date {
+		line-height: 21px;
+		letter-spacing: 4px;
+		font-weight: 500;
+  	text-transform: uppercase;
+	}
+	&__title {
+		font-size: 70px;
+  	font-weight: 500;
+  	line-height: 80px;
+
+		span {
+			font-weight: 800;
+		}
+	}
+	&__description {
+		font-size: 20px;
+  	line-height: 30px;
+  	max-width: 440px;
+  	margin-top: 25px;
+	}
+	&__button {
+		font-size: 18px;
+  	font-weight: 700;
+  	text-transform: uppercase;
+  	padding: 35px 75px;
+  	width: fit-content;
+  	margin-top: 40px;
+  	border-radius: 40px;
+  	background-color: $color-accent;
+  	transition: all ease $duration;
+
+    &:hover {
+      background-color: $color-active;
+    }
+  }
 }
 
 /* СТИЛИ СЛАЙДЕРА */
@@ -72,7 +76,7 @@
   margin-left: 10px;
   border-radius: 4px;
   opacity: 0.15;
-  background-color: var(--secondary-color);
+  background-color: $color-secondary;
   transition: all ease 0.4s;
 }
 .offers .slick-dots li.slick-active button:before {
@@ -162,6 +166,6 @@
     bottom: -40px;
   }
   .offers .slick-dots li.slick-active button:before {
-    background-color: var(--accent-color);
+    background-color: $color-accent;
   }
 }
