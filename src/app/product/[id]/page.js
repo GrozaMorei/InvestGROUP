@@ -1,5 +1,3 @@
-import '../../../styles/pages.css';
-
 export default function ProductPage({ params }) {
   const { id } = params;
 

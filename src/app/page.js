@@ -7,7 +7,7 @@ import Offers from './components/Offers/Offers.jsx';
 import ProductCategories from './components/ProductCategories/ProductCategories.jsx'
 import PromotionalProducts from './components/PromotionalProducts/PromotionalProducts.jsx'
 
-export default function Page() {
+function Page() {
   return (
     <>
       <PromotionalProducts />
@@ -18,3 +18,5 @@ export default function Page() {
     </>
   );
 }
+
+export default Page;

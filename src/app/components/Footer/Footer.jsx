@@ -16,8 +16,7 @@ export default function Footer() {
             <img src="/icons/download.svg" className="footer__download"></img>
           </button>
           <p className="footer__description">
-            Компания «Султан» — снабжаем розничные магазины товарами "под ключ"
-            в Кокчетаве и Акмолинской области
+            Компания «Султан» — снабжаем розничные магазины товарами под ключ в Кокчетаве и Акмолинской области.
           </p>
           <span className="footer__appeal">Подпишись на скидки и акции</span>
           <form className="footer__subscribe">
