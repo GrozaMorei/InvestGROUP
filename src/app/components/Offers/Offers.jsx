@@ -22,6 +22,7 @@ export default function Offers() {
         <Slider {...settings}>
           {offers.map((num) => (
             <div key={num}>
+
               <div className="offers__item">
                 <span className="offers__date">
                   *Акция действует до 04/09/22
@@ -34,7 +35,10 @@ export default function Offers() {
                   Условия акции в пару строк
                 </p>
                 <button className="offers__button">Принять участие</button>
+
+                <img className="offers__image" src="/images/offers/offer.jpg" alt="Избражение предложения" />
               </div>
+
             </div>
           ))}
         </Slider>

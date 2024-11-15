@@ -1,7 +1,7 @@
 import '../styles/global.scss';
 import Footer from './components/Footer/Footer';
 
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
   return (
     <html lang="ru">
       <head>
@@ -17,3 +17,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+export default RootLayout;

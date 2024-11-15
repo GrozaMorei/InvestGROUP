@@ -1,72 +1,71 @@
 @import '../../../styles/variables.scss';
 
 .product-categories {
-	&__title {
-  	font-size: 40px;
-  	font-weight: 500;
-		margin-bottom: 15px;
+  &__title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 16px;
 
-		span {
-			color: $color-accent;
-			font-weight: 800;
-		}
-	}
+    span {
+      color: $color-accent;
+      font-weight: 800;
+    }
+  }
 
-	&__description {
-		font-weight: 300;
-		color: $color-secondary;
-	}
+  &__description {
+    font-weight: 300;
+    color: $color-secondary;
+  }
 
-	&__list {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		gap: 30px;
-		
-		margin-top: 50px;
-	}
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 
-	&__item {
-		flex: 1 1 230px;
-		max-width: 400px;
-		text-align: center;
-	}
+    margin-top: 50px;
+  }
 
-	// АДАПТИВ
-	@media (max-width: 850px) {
-		&__title {
-			font-size: 32px;
-			margin-bottom: 10px;
-		}
+  &__item {
+    flex: 1 1 230px;
+    max-width: 400px;
+    text-align: center;
+  }
 
-		&__list {
-			margin-top: 30px;
-		}
+  @media (max-width: 850px) {
+    &__title {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
 
-		&__item {
-			flex: 1 1 180px;
-			max-width: 350px;
-		}
-	}
+    &__list {
+      margin-top: 30px;
+    }
 
-	@media (max-width: 600px) {
-		&__list {
-			gap: 30px 10px;
-		}
+    &__item {
+      flex: 1 1 180px;
+      max-width: 350px;
+    }
+  }
 
-		&__item {
-			flex: 1 1 140px;
-		}
-	}
+  @media (max-width: 600px) {
+    &__list {
+      gap: 30px 10px;
+    }
 
-	@media (max-width: 400px) {
-		&__list {
-			gap: 10px;
-			margin-top: 25px;
-		}
+    &__item {
+      flex: 1 1 140px;
+    }
+  }
 
-		&__title {
-			font-size: 20px;
-		}
-	}
+  @media (max-width: 400px) {
+    &__list {
+      gap: 10px;
+      margin-top: 26px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+  }
 }
