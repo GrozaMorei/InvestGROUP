@@ -48,6 +48,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 input,
@@ -117,10 +118,11 @@ img {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  margin: 100px 0;
+  margin-bottom: 100px;
 
   @media(max-width: 800px) {
     gap: 50px;
-    margin: 50px 0;
+    margin-top: 108px;
+    margin-bottom: 50px;
   }
 }

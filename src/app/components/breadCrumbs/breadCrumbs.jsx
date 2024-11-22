@@ -1,72 +1,81 @@
-'use client';
+'use client'
 
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation'; // Хук для получения текущего пути
-import './breadCrumps.scss'; // Подключение стилей
-import { useState, useEffect } from 'react';
+import './BreadCrumps.scss';
 
-const Breadcrumbs = () => {
-  const pathname = usePathname(); // Получаем текущий маршрут
-  const pathSegments = pathname.split('/').filter((segment) => segment); // Разбиваем маршрут на сегменты
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 600); // Проверяем ширину экрана
-    };
-
-    handleResize(); // Проверяем при первой загрузке
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  if (isMobile) {
-    // Отображаем кнопку "Назад" на мобильных устройствах
-    const backLink = pathSegments.length > 1
-      ? '/' + pathSegments.slice(0, pathSegments.length - 1).join('/')
-      : '/';
-
-    return (
-      <nav className="breadcrumbs breadcrumbs--mobile">
-        <Link href={backLink} className="breadcrumbs__back">
-          <span className="breadcrumbs__icon">
-            <img src="/icons/arrow-left-g.svg" alt="Назад" />
-          </span>
-          <span className="breadcrumbs__text">Назад</span>
-        </Link>
-      </nav>
-    );
+function translateToRussian(element) {
+  const translations = {
+    '/': 'Главная',
+    'household-chemicals': 'Бытовая химия',
+    'cosmetics-and-hygiene': 'Косметика и гигиена',
+    'household-goods': 'Товары для дома',
+    'products-for-children-and-mothers': 'Товары для детей и мам',
+    'tableware': 'Посуда'
   }
 
+  return translations[element] || element;
+}
+
+
+export default function BreadCrumps({ currentProduct }) {
+  const pathName = usePathname();
+  const pathSegments = pathName.split('/').filter(Boolean);
+  let basePath = '';
+  
+  // Если передается текущий продукт, меняем артикул на название
+  if (currentProduct) {
+    pathSegments[pathSegments.length-1] = `${currentProduct.name}, ${currentProduct.weight}`;
+  }
+
+  // Логика кнопки "Назад"
+  const goBack = () => {
+    if (pathSegments.length > 1) {
+      const newPath = '/' + pathSegments.slice(0, -1).join('/');
+      window.location.href = newPath;
+    } else {
+      window.location.href = '/';
+    }
+  }
+
+
   return (
-    <nav className="breadcrumbs">
-			<div className="container">
-      	<ul className="breadcrumbs__list">
-        	{/* Главная ссылка */}
-        	<li className="breadcrumbs__item">
-          	<Link href="/" className="breadcrumbs__link">
-            	Главная
-          	</Link>
-        	</li>
+    <section className='bread-crumbs'>
+      <div className="container bread-crumbs__container">
 
-        	{/* Генерация остальных ссылок */}
-        	{pathSegments.map((segment, index) => {
-          	const link = '/' + pathSegments.slice(0, index + 1).join('/');
-          	return (
-            	<li key={index} className="breadcrumbs__item">
-              	<Link href={link} className="breadcrumbs__link">
-                	{decodeURIComponent(segment)}
-              	</Link>
-            	</li>
-          	);
-        	})}
-      	</ul>
-			</div>
-    </nav>
-  );
-};
+        <ul className='bread-crumbs__list'>
+          {/* Главная страница */}
+          <li key='home' className='bread-crumbs__list-item'>
+            <Link href="/">{translateToRussian('/')}</Link>
+          </li>
 
-export default Breadcrumbs;
+          {/* Другие сегменты */}
+          {pathSegments.map(function(segment, index) {
+            basePath = `${basePath}/${segment}`;
+
+            // Если это последний элемент
+            const isLast = index === pathSegments.length - 1;
+
+            return (
+              <li key={ index } className='bread-crumbs__list-item'>
+                { isLast ?  (
+                  // Отключенный последний элемент
+                  <span className='bread-crumbs__link'>{ translateToRussian(segment) }</span>
+                ) : (
+                  // Ссылка для остальных элементов
+                  <Link href={ basePath } className='bread-crumbs__link'>{ translateToRussian(segment) }</Link>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+
+        <button onClick={ goBack } className='bread-crumbs__button'>
+          <img src='/icons/arrow-left-g.svg' alt='Икнонка назад' className='bread-crumbs__button-img' />
+          <span>Назад</span>
+        </button>
+
+      </div>
+    </section>
+  )
+}

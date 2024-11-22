@@ -1,18 +1,13 @@
 'use client';
 
-import '../../../styles/global.scss';
-import '../SimilarProducts/SimilarProducts.scss';
-import ProductCard from '../../components/ProductCard/ProductCard';
-import products from '../../../data/products.json';
-
 import Slider from 'react-slick';
-
+import ProductCard from '../ProductCard/ProductCard';
+import products from '../../../data/products.json';
+import '../SimilarProducts/SimilarProducts.scss';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export default function SimilarProduct({ currentProduct }) {
-  const { currProduct } = currentProduct;
-
   const similarProducts = products.filter(
     (product) =>
       product.category === currentProduct.category &&

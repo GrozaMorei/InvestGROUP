@@ -1,5 +1,6 @@
 import '../styles/global.scss';
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 function RootLayout({ children }) {
   return (
@@ -11,6 +12,7 @@ function RootLayout({ children }) {
       </head>
 
       <body className="body">
+        <Header />
         <main className="main"> {children} </main>
         <Footer />
       </body>

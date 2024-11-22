@@ -1,1 +1,508 @@
-@import '../../../styles/variables.scss';
+@use '/src/styles/variables.scss' as *;
+
+.header {
+	position: relative;
+	z-index: 9;
+	left: 0;
+	right: 0;
+	background-color: $color-white;
+
+	.mobile {
+		display: none;
+
+		@media(max-width: $tablet) {
+			display: flex;
+		}
+	}
+
+
+	&-top {
+		padding: 14px 0;
+		border-bottom: 2px solid rgba($color-secondary, 0.2);
+
+		&__title {
+			font-size: 14px;
+			font-weight: 600;
+			line-height: 18px;
+		}
+
+		&__subtitle {
+			font-size: 12px;
+			font-weight: 300;
+			line-height: 18px;
+			color: $color-secondary;
+		}
+
+		&__container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 15px;
+
+			@media(max-width: $tablet) {
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 25px;
+			}
+		}
+
+		&__info {
+			display: flex;
+			gap: 40px;
+
+			li {
+				position: relative;
+				display: flex;
+				align-items: center;
+
+				a {
+					position: relative;
+					display: flex;
+					align-items: center;
+					gap: 15px;
+
+				}
+
+				&::after {
+					content: '';
+					display: block;
+					position: absolute;
+					right: -20px;
+					width: 2px;
+					height: 40px;
+					border-right: 1px dashed rgba($color-secondary, 0.2);
+
+					@media(max-width: $tablet) {
+						content: none;
+					}
+				}
+
+				&:nth-child(2)::after {
+					content: none;
+				}
+			}
+
+			&-contact {
+				display: flex;
+				gap: 15px;
+
+				.header-top__tell-inner {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+
+			.header-top__tell-btn {
+				display: flex;
+				align-items: center;
+				gap: 8px;
+
+				img {
+					padding: 8px;
+					border-radius: 50%;
+					background-color: $color-accent;
+				}
+
+				span {
+					font-size: 10px;
+					text-decoration: underline;
+					color: $color-secondary;
+				}
+			}
+
+			@media(max-width: $desktop) {
+				& li:nth-child(1)::after {
+					content: none;
+				}
+
+				& li:nth-child(2) {
+					display: none;
+				}
+			}
+
+			@media(max-width: $tablet) {
+				flex-direction: column;
+				gap: 15px;
+				width: 100%;
+				padding-bottom: 25px;
+				border-bottom: 1px dashed rgba($color-secondary, 0.2);
+
+				& li:nth-child(2) {
+					display: flex;
+				}
+			}
+		}
+
+		&__menu {
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+
+			&-nav {
+				display: flex;
+				gap: 60px;
+
+				a {
+					position: relative;
+					display: flex;
+					align-items: center;
+					color: $color-secondary;
+					transition: all ease $duration;
+
+					&::after {
+						content: '';
+						display: block;
+						position: absolute;
+						right: -30px;
+						width: 2px;
+						height: 40px;
+						border-right: 1px dashed rgba($color-secondary, 0.2);
+
+						@media(max-width: $desctop-l) {
+							right: -15px;
+						}
+
+						@media(max-width: $tablet) {
+							content: none;
+						}
+					}
+
+					&:last-child::after {
+						content: none;
+					}
+
+					&:hover {
+						color: $color-accent;
+					}
+				}
+
+				@media(max-width: $desctop-l) {
+					gap: 30px;
+				}
+
+				@media(max-width: $tablet) {
+					flex-direction: column;
+					gap: 20px;
+				}
+			}
+
+			&-title {
+				font-size: 20px;
+				font-weight: 600;
+				color: $color-secondary;
+			}
+
+			&-price {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 12px;
+				height: 70px;
+				min-width: 290px;
+				border-radius: 80px;
+				background-color: $color-accent;
+
+				span {
+					font-size: 14px;
+					font-weight: 700;
+					color: $color-white;
+				}
+			}
+		}
+
+		@media(max-width: 800px) {
+			position: absolute;
+			background-color: $color-white;
+			border-bottom: none;
+			top: -700px;
+			left: 0;
+			right: 0;
+			box-shadow: 0px 100px 80px rgba($color-secondary, 0.4);
+			transition: all ease 2s;
+
+			&.active {
+				top: 105px;
+			}
+		}
+	}
+
+	&-bottom {
+		position: relative;
+		z-index: 1;
+		padding: 10px 0;
+		background-color: $color-white;
+		border-bottom: 2px solid rgba($color-secondary, 0.2);
+
+		&__main {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			&-menu {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 32px;
+				width: 32px;
+				border-radius: 50%;
+				background-color: $color-accent;
+				transition: all ease $duration;
+
+				&:hover {
+					background-color: $color-active;
+				}
+
+				span {
+					position: relative;
+					display: block;
+					width: 10px;
+					height: 2px;
+					background-color: $color-white;
+
+					&::after {
+						content: '';
+						position: relative;
+						top: -5px;
+						display: block;
+						width: 10px;
+						height: 2px;
+						background-color: $color-white;
+					}
+
+					&::before {
+						content: '';
+						position: relative;
+						top: 5px;
+						display: block;
+						width: 10px;
+						height: 2px;
+						background-color: $color-white;
+					}
+				}
+			}
+
+			&-logo img {
+				height: 66px;
+				width: 156px;
+
+				@media(max-width: $tablet) {
+					height: auto;
+					width: auto;
+				}
+			}
+
+			&-catalog {
+				display: flex;
+				gap: 12px;
+
+				font-weight: 700;
+
+				padding: 22px 56px;
+
+				color: $color-white;
+				border-radius: 80px;
+				background-color: $color-accent;
+				transition: all ease $duration;
+
+				&:hover {
+					background-color: $color-active;
+				}
+
+				@media(max-width: $tablet) {
+					display: none;
+				}
+			}
+
+			&-search {
+				display: flex;
+				gap: 12px;
+
+				padding: 10px;
+
+				border-radius: 80px;
+				background-color: $color-gray;
+
+				input {
+					max-width: 200px;
+					padding-left: 10px;
+					background-color: inherit;
+				}
+
+				button {
+					padding: 11px 12px;
+					border-radius: 50%;
+					background-color: $color-accent;
+					transition: all ease $duration;
+
+					&:hover {
+						background-color: $color-active;
+					}
+				}
+
+				@media(max-width: $desktop) {
+					display: none;
+				}
+			}
+
+			&-contact {
+				position: relative;
+				display: flex;
+				align-items: center;
+				gap: 15px;
+
+				&__inner {
+					display: flex;
+					flex-direction: column;
+					gap: 7px;
+					text-align: right;
+				}
+
+				h3 {
+					font-size: 14px;
+					font-weight: 600;
+				}
+
+				span {
+					font-size: 12px;
+					font-weight: 300;
+					color: $color-secondary;
+				}
+
+				button {
+					font-size: 10px;
+					font-weight: 400;
+					text-align: right;
+					text-decoration: underline;
+					color: $color-secondary;
+				}
+
+				@media(max-width: $desctop-l) {
+					display: none;
+				}
+			}
+
+			&-price {
+				position: relative;
+				display: flex;
+				align-items: center;
+				gap: 12px;
+
+				font-size: 14px;
+				font-weight: 700;
+
+				padding: 21px 42px;
+
+				border-radius: 80px;
+				color: $color-white;
+				background-color: $color-accent;
+				transition: all ease $duration;
+
+				&:hover {
+					background-color: $color-active;
+				}
+
+				@media(max-width: $tablet) {
+					display: none;
+				}
+			}
+
+			&-basket {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				gap: 16px;
+
+				&__img {
+					position: relative;
+
+					span {
+						position: absolute;
+						right: -5px;
+						top: -5px;
+
+						font-size: 14px;
+						font-weight: 700;
+
+						padding: 3px 5px;
+
+						border-radius: 50%;
+						color: $color-white;
+						background-color: $color-accent;
+
+						@media(max-width: $tablet) {
+							font-size: 10px;
+							padding: 2px 3px;
+						}
+					}
+
+					@media(max-width: $tablet) {
+						img {
+							height: 16px;
+							width: 22px;
+						}
+					}
+				}
+
+				&__text {
+					display: flex;
+					flex-direction: column;
+					gap: 5px;
+
+					font-size: 12px;
+					font-weight: 300;
+					color: $color-secondary;
+
+					h3 {
+						font-size: 14px;
+						font-weight: 600;
+						color: $color-primary;
+					}
+
+					@media(max-width: $tablet) {
+						display: none;
+					}
+				}
+			}
+		}
+		@media(max-width: $tablet) {
+			padding: 10px 0;
+			margin-top: 0;
+			border-bottom: 2px solid rgba($color-secondary, 0.2);
+		}
+	}
+
+	&-mobile {
+		position: relative;
+		z-index: 1;
+		display: none;
+		border-bottom: 2px solid rgba($color-secondary, 0.2);
+		background-color: $color-white;
+
+		&__container {
+			display: flex;
+			padding-inline: 15px;
+
+			& > * {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 6px;
+				flex: 1;
+				padding: 14px;
+			}
+		}
+
+		&__catalog {
+			border-right: 1px dashed rgba($color-secondary, 0.2);
+		}
+
+		@media(max-width: $tablet) {
+			display: block;
+		}
+	}
+
+	@media(max-width: $tablet) {
+		position: fixed;
+	}
+}
