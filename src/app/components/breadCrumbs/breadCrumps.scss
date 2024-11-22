@@ -1,0 +1,72 @@
+@use '../../../styles/variables.scss' as *;
+
+.breadcrumbs {
+	padding: 15px;
+	
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+
+  &__item {
+    margin-right: 0.5rem;
+
+    &:not(:last-child)::after {
+      content: '/';
+      margin-left: 0.5rem;
+      color: $color-secondary;
+    }
+
+		&:last-child {
+			opacity: 50%;
+		}
+  }
+
+  &__link {
+		text-decoration: none;
+    color: $color-secondary;
+    transition: all ease $duration;
+
+    &:hover {
+      opacity: 50%;
+    }
+  }
+
+  &--mobile {
+    display: flex;
+    align-items: center;
+
+    .breadcrumbs__back {
+      display: flex;
+      align-items: center;
+
+			font-size: 10px;
+			font-weight: 600;
+			text-transform: uppercase;
+      text-decoration: none;
+      color: $color-secondary;
+
+      .breadcrumbs__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: $color-faint;
+        margin-right: 8px;
+				transition: all ease $duration;
+
+				&:hover {
+					background-color: $color-accent;
+				}
+      }
+
+      .breadcrumbs__text {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
