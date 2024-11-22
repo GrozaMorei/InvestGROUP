@@ -153,7 +153,7 @@ export default function ProductInfo({ currentProduct }) {
 							Штрихкод: <b>{cp.barcode}</b>
 						</li>
 						<li className="product-info__item">
-							Размеры коробки<smal>(д*ш*в)</smal>: <b>{cp.size}</b>
+							Размеры коробки<span>(д*ш*в)</span>: <b>{cp.size}</b>
 						</li>
 						<li className="product-info__item">
 							Вес коробки: <b>{cp.weight}</b>

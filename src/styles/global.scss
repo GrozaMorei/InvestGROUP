@@ -117,10 +117,11 @@ img {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  margin: 100px 0;
+  margin-bottom: 100px;
 
   @media(max-width: 800px) {
     gap: 50px;
-    margin: 50px 0;
+    margin-top: 108px;
+    margin-bottom: 50px;
   }
 }
