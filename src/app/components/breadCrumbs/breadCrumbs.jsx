@@ -2,12 +2,12 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import './BreadCrumps.scss';
+import './BreadCrumbs.scss';
 
 function translateToRussian(element) {
   const translations = {
     '/': 'Главная',
-    'household-chemicals': 'Бытовая химия',
+    'household-chemials': 'Бытовая химия',
     'cosmetics-and-hygiene': 'Косметика и гигиена',
     'household-goods': 'Товары для дома',
     'products-for-children-and-mothers': 'Товары для детей и мам',

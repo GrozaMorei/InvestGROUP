@@ -1,5 +1,4 @@
-import BreadCrumps from '../components/BreadCrumbs/BreadCrumbs'
-import Undefine from '../components/UI/Undefine/Undefine'
+import Undefine from '../components/UI/Undefine/Undefine';
 
 export default async function Category({ params }) {
   const { category } = await params;

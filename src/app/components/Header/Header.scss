@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @use '/src/styles/variables.scss' as *;
+=======
+@import '../../../styles/variables.scss';
+>>>>>>> 2b7bb3408a2f72c7f67e38836e79e400c7de0340
 
 .header {
 	position: relative;
@@ -231,7 +235,10 @@
 		z-index: 1;
 		padding: 10px 0;
 		background-color: $color-white;
+<<<<<<< HEAD
 		border-bottom: 2px solid rgba($color-secondary, 0.2);
+=======
+>>>>>>> 2b7bb3408a2f72c7f67e38836e79e400c7de0340
 
 		&__main {
 			display: flex;
