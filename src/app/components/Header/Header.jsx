@@ -53,10 +53,10 @@ export default function Header() {
 					<div className="header-top__menu">
 						<h2 className="header-top__menu-title mobile">Меню сайта:</h2>
 						<nav className='header-top__menu-nav'>
-							<Link className="header-top__link" href="about">О компании</Link>
-							<Link className="header-top__link" href="order">Доставка и оплата</Link>
-							<Link className="header-top__link" href="order">Возврат</Link>
-							<Link className="header-top__link" href="order">Контакты</Link>
+							<Link className="header-top__link" href="#">О компании</Link>
+							<Link className="header-top__link" href="#">Доставка и оплата</Link>
+							<Link className="header-top__link" href="#">Возврат</Link>
+							<Link className="header-top__link" href="#">Контакты</Link>
 						</nav>
 						<button className='header-top__menu-price price mobile'>
 							<span className='header-top__price-text price-text'>Прайс-лист</span>
