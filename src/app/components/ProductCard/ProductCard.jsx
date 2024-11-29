@@ -12,16 +12,14 @@ const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
       <div className="product-card__image">
-        <Link href={`/${product.category}/${product.article}`} passHref/>
-        <Link href={`catalog/product/${product.id}`} passHref>
+        <Link href={`/${product.category}/${product.article}`} passHref>
           <img src={product.image} alt={product.name} />
         </Link>
         <span className="product-card__tag">Популярное</span>
       </div>
 
       <div className="product-card__info">
-        <Link href={`/${product.category}/${product.article}`} passHref/>
-        <Link href={`catalog/product/${product.id}`} passHref>
+        <Link href={`/${product.category}/${product.article}`} passHref>
           <div className="product-card__info__top">
            <div className="product-card__type">
               <img src={product.image_type}></img>
