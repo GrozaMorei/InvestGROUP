@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import './BreadCrumbs.scss';
+import './Crumbs.scss';
 
 function translateToRussian(element) {
   const translations = {

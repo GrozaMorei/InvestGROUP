@@ -2,7 +2,7 @@ import products from '@/data/products';
 import ProductInfo from '@/app/components/ProductInfo/ProductInfo';
 import SimilarProducts from '@/app/components/SimilarProducts/SimilarProducts';
 import Undifine from '@/app/components/UI/Undefine/Undefine';
-import BreadCrumbs from '@/app/components/BreadCrumbs/BreadCrumbs';
+import Crumbs from '@/app/components/Crumbs/Crumbs';
 
 export default async function Product({ params }) {
   const { product } = await params;
@@ -17,7 +17,7 @@ export default async function Product({ params }) {
 
   return (
     <>
-      <BreadCrumbs currentProduct= { currentProduct }/>
+      <Crumbs currentProduct= { currentProduct }/>
       <ProductInfo currentProduct={ currentProduct } />
       <SimilarProducts currentProduct={ currentProduct } />
     </>
