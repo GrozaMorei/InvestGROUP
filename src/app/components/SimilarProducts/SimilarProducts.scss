@@ -2,7 +2,6 @@
 
 .similar-products {
   .container {
-    width: 100%;
     padding: 0;
   }
 
@@ -26,9 +25,8 @@
   }
 }
 
-.similar-products__slider li {
-  padding: 40px 0px;
-  gap: 20px;
+.similar-products__slider .slick-slide {
+  padding: 26px 0;
 }
 
 .similar-products__slider .slick-dots li button:before {

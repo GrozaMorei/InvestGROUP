@@ -1,10 +1,9 @@
 import Slider from 'react-slick';
+import ProductCard from '../ProductCard/ProductCard';
+import products from '@/data/products.json';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './PromotionalProducts.scss';
-
-import ProductCard from '../ProductCard/ProductCard';
-import products from '../../../data/products.json';
 
 const PromotionalProducts = () => {
   const sliderSettings = {
