@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-
 import './ProductCard.scss';
 
 const ProductCard = ({ product }) => {
@@ -13,17 +12,17 @@ const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
       <div className="product-card__image">
-        <Link href={`catalog/product/${product.id}`} passHref>
+        <Link href={`/${product.category}/${product.article}`} passHref>
           <img src={product.image} alt={product.name} />
         </Link>
         <span className="product-card__tag">Популярное</span>
       </div>
 
       <div className="product-card__info">
-        <Link href={`catalog/product/${product.id}`} passHref>
+        <Link href={`/${product.category}/${product.article}`} passHref>
           <div className="product-card__info__top">
            <div className="product-card__type">
-              <img src={product.type}></img>
+              <img src={product.image_type}></img>
               <span className="product-card__volume">{product.weight}</span>
            </div>
             <h3 className="product-card__title">

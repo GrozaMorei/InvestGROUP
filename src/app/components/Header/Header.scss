@@ -1,4 +1,4 @@
-@import '../../../styles/variables.scss';
+@use '/src/styles/variables.scss' as *;
 
 .header {
 	position: relative;
@@ -231,6 +231,7 @@
 		z-index: 1;
 		padding: 10px 0;
 		background-color: $color-white;
+		border-bottom: 2px solid rgba($color-secondary, 0.2);
 
 		&__main {
 			display: flex;

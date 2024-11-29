@@ -1,7 +1,7 @@
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Offers.scss';
-import Slider from 'react-slick';
 
 export default function Offers() {
   const offerCount = 4; // Количество предложений

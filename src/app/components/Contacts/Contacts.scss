@@ -1,4 +1,4 @@
-@import '../../../styles/variables';
+@use '/src/styles/variables.scss' as *;
 
 .contacts {
 	padding-inline: 20px;

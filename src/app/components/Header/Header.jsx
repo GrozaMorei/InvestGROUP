@@ -1,8 +1,8 @@
 'use client';
 
-import './Header.scss'
 import { useState } from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
+import './Header.scss';
 
 export default function Header() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -75,7 +75,7 @@ export default function Header() {
 						<Link className="header-bottom__main-logo" href="/">
 							<img src="/icons/logo-gray.svg" alt="Изображение логотипа" />
 						</Link>
-						<Link className="header-bottom__main-catalog" href="catalog">
+						<Link className="header-bottom__main-catalog" href="/#catalog">
 							Каталог
 							<img src="/icons/catalog-white.svg" alt="Иконка каталога" />
 						</Link>
@@ -117,7 +117,7 @@ export default function Header() {
 
 			<section className='header-mobile'>
 				<div className="header-mobile__container">
-					<Link className="header-mobile__catalog" href="catalog">
+					<Link className="header-mobile__catalog" href="/#catalog">
 						<img src="/icons/catalog-gray.svg" alt="Иконка каталога" />
 						Каталог
 					</Link>

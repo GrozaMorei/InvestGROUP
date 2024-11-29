@@ -2,16 +2,12 @@
 
 import { useState, useRef } from 'react';
 import { priceList } from '@/utils/priceList';
+import Accordion from '../UI/Accordion/Accordion';
 import './ProductInfo.scss';
 
 export default function ProductInfo({ currentProduct }) {
-	const cp = currentProduct;
-
-	let count = cp.count;
+	let count = currentProduct.count;
 	const [thisCount, setThisCount] = useState(0);
-	// Аккардион	
-	const [isOpen, setIsOpen] = useState(false);
-	const contentRef = useRef(null)
 
 	// Уменьшение количества товара
 	const decreaseCount = () => {
@@ -29,8 +25,8 @@ export default function ProductInfo({ currentProduct }) {
 
 	// Добавление в корзину
 	const addToCart = () => {
-		console.log(`В корзину было добавлено ${thisCount} товара "${cp.name}"`);
-		cp.count -= thisCount;
+		console.log(`В корзину было добавлено ${thisCount} товара "${currentProduct.name}"`);
+		currentProduct.count -= thisCount;
 		setThisCount(0);
 	}
 
@@ -46,39 +42,33 @@ export default function ProductInfo({ currentProduct }) {
 		priceList('Прайс-лист');
 	}
 
-	// Аккардеон 
-	const accordion = () => {
-		setIsOpen(!isOpen);
-	}
-
-
   return (
     <section className='product-info'>
 			<div className="container product-info__container">
 
 				<div className="product-info__left">
-					<img src={ cp.image } alt="Изображение товара" className="product-info--images" />
+					<img src={ currentProduct.image } alt="Изображение товара" className="product-info--images" />
 				</div>
 
 				<div className="product-info__right">
 
 					<span className={ `product-info__existence ${
-						cp.count > 0 ? 'product-info__existence--on' : 'product-info__existence--off'
+						currentProduct.count > 0 ? 'product-info__existence--on' : 'product-info__existence--off'
 					}` }>
-						{ cp.count > 0 ? 'В наличии' : 'Отсутствует' }
+						{ currentProduct.count > 0 ? 'В наличии' : 'Отсутствует' }
 					</span>
 
 					<h2 className='product-info__title'>
-						<b>{ cp.brand }</b> { cp.name }
+						<b>{ currentProduct.brand }</b> { currentProduct.name }
 					</h2>
 
 					<div className="product-info__type">
-						<img src={ cp.type } alt="Тип товара" className="product-info__type--img" />
-						<span className="product-info__type--text">{ cp.weight }</span>
+						<img src={ currentProduct.image_type } alt="Тип товара" className="product-info__type--img" />
+						<span className="product-info__type--text">{ currentProduct.weight }</span>
 					</div>
 
 					<div className="product-info__buy-list">
-						<span className="product-info__price">{ cp.price } ₸</span>
+						<span className="product-info__price">{ currentProduct.price } ₸</span>
 						<div className="product-info__price-inner">
 							<button 
 						  	className="product-info__button product-info__button--decrease"
@@ -138,49 +128,32 @@ export default function ProductInfo({ currentProduct }) {
 
 					<ul className="product-info__info-block">
 						<li className="product-info__item">
-							Производитель: <b>{cp.manufacturer}</b>
+							Производитель: <b>{currentProduct.manufacturer}</b>
 						</li>
 						<li className="product-info__item">
-							Бренд: <b>{cp.brand}</b>
+							Бренд: <b>{currentProduct.brand}</b>
 						</li>
 						<li className="product-info__item">
-							Артикул: <b>{cp.article}</b>
+							Артикул: <b>{currentProduct.article}</b>
 						</li>
 						<li className="product-info__item">
-							Кол-во в коробке: <b>{cp.countItem}</b>
+							Кол-во в коробке: <b>{currentProduct.countItem}</b>
 						</li>
 						<li className="product-info__item">
-							Штрихкод: <b>{cp.barcode}</b>
+							Штрихкод: <b>{currentProduct.barcode}</b>
 						</li>
 						<li className="product-info__item">
-							Размеры коробки<span>(д*ш*в)</span>: <b>{cp.size}</b>
+							Размеры коробки<span>(д*ш*в)</span>: <b>{currentProduct.size}</b>
 						</li>
 						<li className="product-info__item">
-							Вес коробки: <b>{cp.weight}</b>
+							Вес коробки: <b>{currentProduct.weight}</b>
 						</li>
 					</ul>
 
 					<div className="product-info__description">
-						<button 
-							className="product-info__description--button"
-							onClick={ accordion }
-						>
-							Описание
-							<img 
-								src="/icons/arrow-gray.svg" 
-								alt="Иконка стрелочки" 
-								className="product-info__description--img"
-								style={{ transform: isOpen ? 'rotate(0)' : 'rotate(-90deg)'}} 
-							/>
-						</button>
-						<p 
-							// Исправлю к 22.11 
-							ref={ contentRef }
-							className={`product-info__description--text ${isOpen ? 'open' : ''}`}
-							style={{ maxHeight: isOpen ? `${contentRef.current?.scrollHeight}px` : '0'}}
-						>
-							{ cp.description }
-						</p>
+						<Accordion title="Описание" className="product-info__accordion-title">
+							<p className="product-info__accordion-text">{ currentProduct.description }</p>
+						</Accordion>
 					</div>
 
 				</div>

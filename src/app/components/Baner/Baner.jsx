@@ -10,7 +10,7 @@ export default function Baner() {
 					<div className='baner__main'>
 						<h1 className='baner__main-title'>Бытовая химия, косметика и хозтовары</h1>
 						<span className='baner__main-text'>Оптом по кокчетаву и области</span>
-						<Link href='catalog' className='baner__main-link desktop'>В каталог</Link>
+						<Link href='/#catalog' className='baner__main-link desktop'>В каталог</Link>
 					</div>
 					<div className='baner__info desktop'>
 						<div className='baner__info-item'>

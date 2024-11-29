@@ -1,10 +1,10 @@
-import './ProductCategories.scss';
 import CategoryCard from '../CategoryCard/CategoryCard.jsx';
-import categories from '../../../data/categories.json';
+import categories from '/src/data/categories.json';
+import './ProductCategories.scss';
 
-const ProductCategories = () => {
+export default function ProductCategories() {
   return (
-    <section className="product-categories">
+    <section className="product-categories" id="catalog">
       <div className="container">
         <h2 className="product-categories__title">
           <span>КАТЕГОРИИ </span> ТОВАРОВ
@@ -25,5 +25,3 @@ const ProductCategories = () => {
     </section>
   );
 };
-
-export default ProductCategories;

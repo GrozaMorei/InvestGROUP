@@ -1,72 +1,62 @@
-@use '../../../styles/variables.scss' as *;
+@use '/src/styles/variables.scss' as *;
 
-.breadcrumbs {
-	padding: 15px;
-	
-  &__list {
-    display: flex;
-    list-style: none;
-    margin: 0;
-  }
+.bread-crumbs {
+	color: $color-secondary;
 
-  &__item {
-    margin-right: 0.5rem;
+	&__list {
+		display: flex;
+		gap: 10px;
+		margin-top: 45px;
 
-    &:not(:last-child)::after {
-      content: '/';
-      margin-left: 0.5rem;
-      color: $color-secondary;
-    }
+		font-size: 14px;
+		font-weight: 300;
 
-		&:last-child {
-			opacity: 50%;
-		}
-  }
+		&-item {
+			padding-right: 10px;
+			border-right: 1px dashed rgba($color-secondary, 0.3);
 
-  &__link {
-		text-decoration: none;
-    color: $color-secondary;
-    transition: all ease $duration;
+			&:hover {
+				text-decoration: underline;
+			}
 
-    &:hover {
-      opacity: 50%;
-    }
-  }
-
-  &--mobile {
-    display: flex;
-    align-items: center;
-
-    .breadcrumbs__back {
-      display: flex;
-      align-items: center;
-
-			font-size: 10px;
-			font-weight: 600;
-			text-transform: uppercase;
-      text-decoration: none;
-      color: $color-secondary;
-
-      .breadcrumbs__icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        background-color: $color-faint;
-        margin-right: 8px;
-				transition: all ease $duration;
+			&:last-child {
+				border: none;
+				color: rgba($color-secondary, 0.5);
 
 				&:hover {
-					background-color: $color-accent;
+					text-decoration: none;
 				}
-      }
 
-      .breadcrumbs__text {
-        font-size: 16px;
-        font-weight: bold;
-      }
-    }
-  }
+				& a:hover {
+					cursor: default;
+				}
+			}
+		}
+
+		@media(max-width: $tablet-s) {
+			display: none;
+		}
+	}
+
+	&__button {
+		display: none;
+		gap: 5px;
+		align-items: center;
+
+		font-size: 10px;
+		font-weight: 600;
+		text-transform: uppercase;
+
+		margin-top: 20px;
+
+		&-img {
+			padding: 12px 14px;
+			border-radius: 50%;
+			background-color: $color-faint;
+		}
+
+		@media(max-width: $tablet-s) {
+			display: flex;
+		}
+	}
 }
