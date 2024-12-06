@@ -16,6 +16,6 @@ const CategoryCard = ({ category }) => {
       <span className="category-card__title">{category.title}</span>
     </div>
   );
-};
+}
 
 export default CategoryCard;

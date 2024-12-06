@@ -1,5 +1,5 @@
-import CategoryCard from '../CategoryCard/CategoryCard.jsx';
 import categories from '/src/data/categories.json';
+import CategoryCard from '../CategoryCard/CategoryCard.jsx';
 import './ProductCategories.scss';
 
 export default function ProductCategories() {
@@ -16,12 +16,12 @@ export default function ProductCategories() {
 
         <ul className="product-categories__list">
           {categories.map((category) => (
-            <li key={ category.id } className='product-categories__item'>
-              <CategoryCard category={category} />
+            <li key={category.id} className='product-categories__item'>
+              <CategoryCard category={ category } />
             </li>
           ))}
         </ul>
       </div>
     </section>
   );
-};
+}

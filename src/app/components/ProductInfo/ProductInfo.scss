@@ -225,10 +225,12 @@
 			display: none;
 			max-width: 60px;
 		}
+		
 		.product-info__share.active {
 			display: block;
 			min-width: 60px;
 		}
+
 		&__button-inner {
 			flex: 1;
 			display: flex;
@@ -241,20 +243,25 @@
 		&__container {
 			gap: 20px;
 		}
+
 		&__title {
 			font-size: 20px;
 			line-height: 24px;
 		}
+
 		&__buy-list &__price {
 			font-size: 20px;
 		}
+
 		&__buy-list &__price-inner &__button {
 			padding: 4px 14px;
 		}
+
 		&__price-list {
 			flex-direction: column;
 			height: auto;
 		}
+
 		&__price-list--info,
 		&__price-download {
 			min-height: 60px;

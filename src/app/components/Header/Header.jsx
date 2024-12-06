@@ -1,16 +1,8 @@
-'use client';
-
-import { useState } from 'react';
 import Link from 'next/link';
+import Button from '../UI/Button/Button';
 import './Header.scss';
 
-export default function Header() {
-	const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
+export default function Header({ toggleMenu, isOpen }) {
 	return (
 		<header className='header'>
 			<section className={`header-top ${isOpen ? 'active' : ''}`}>
@@ -53,15 +45,25 @@ export default function Header() {
 					<div className="header-top__menu">
 						<h2 className="header-top__menu-title mobile">Меню сайта:</h2>
 						<nav className='header-top__menu-nav'>
-							<Link className="header-top__link" href="about">О компании</Link>
-							<Link className="header-top__link" href="order">Доставка и оплата</Link>
-							<Link className="header-top__link" href="order">Возврат</Link>
-							<Link className="header-top__link" href="order">Контакты</Link>
+							<ul className='header-top__menu-list'>
+								<li className='header-top__menu-item'>
+									<Link className="header-top__link" href="#">О компании</Link>
+								</li>
+								<li className='header-top__menu-item'>
+								  <Link className="header-top__link" href="#">Доставка и оплата</Link>
+								</li>
+								<li className='header-top__menu-item'>
+									<Link className="header-top__link" href="#">Возврат</Link>
+								</li>
+								<li className='header-top__menu-item'>
+									<Link className="header-top__link" href="#">Контакты</Link>
+								</li>
+							</ul>
 						</nav>
-						<button className='header-top__menu-price price mobile'>
+						<Button className='header-top__menu-price price mobile'>
 							<span className='header-top__price-text price-text'>Прайс-лист</span>
 							<img src="/icons/download.svg" alt="Иконка загрузки" />
-						</button>
+						</Button>
 					</div>
 				</div>
 			</section>
@@ -69,25 +71,25 @@ export default function Header() {
 			<section className='header-bottom'>
 				<div className="header-bottom__container container">
 					<div className="header-bottom__main">
-						<button className="header-bottom__main-menu mobile" onClick={toggleMenu}>
+						<button className="header-bottom__main-menu mobile" onClick={ toggleMenu }>
 							<img src='/icons/menu.svg' className='header-bottom__burger-line' />
 						</button>
 						<Link className="header-bottom__main-logo" href="/">
 							<img src="/icons/logo-gray.svg" alt="Изображение логотипа" />
 						</Link>
-						<Link className="header-bottom__main-catalog" href="/#catalog">
+						<Button className="header-bottom__main-catalog" href="/#catalog">
 							Каталог
 							<img src="/icons/catalog-white.svg" alt="Иконка каталога" />
-						</Link>
+						</Button>
 						<div className="header-bottom__main-search">
 							<input
 								className="header-bottom__search-input"
 								type="text"
 								placeholder='Поиск...'
 							/>
-							<button className="header-bottom__search-button">
+							<Button className="header-bottom__search-button">
 								<img src="/icons/search-white.svg" alt="Иконка поиска" />
-							</button>
+							</Button>
 						</div>
 						<div className="header-bottom__main-contact">
 							<div className="header-bottom__main-contact__inner">
@@ -97,10 +99,10 @@ export default function Header() {
 							</div>
 							<img src="/images/header/contact.png" alt="Изображение девушки" />
 						</div>
-						<button className="header-bottom__main-price price">
+						<Button className="header-bottom__main-price price">
 							Прайс-лист
 							<img src="/icons/download.svg" alt="Иконка скачивания" />
-						</button>
+						</Button>
 						<Link className="header-bottom__main-basket" href="basket">
 							<div className="header-bottom__main-basket__img">
 								<img src="/icons/basket-gray.svg" alt="Иконка корзины" />
@@ -128,5 +130,5 @@ export default function Header() {
 				</div>
 			</section>
 		</header>
-	)
+	);
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Button from '../UI/Button/Button';
 import './Footer.scss';
 
 export default function Footer() {
@@ -11,10 +12,10 @@ export default function Footer() {
           <div className="footer__logo">
             <img src="/icons/logo-white.svg" alt="Логотип компании Султан" />
           </div>
-          <button className="footer__price-button --not-active">
+          <Button className="footer__price-button --not-active">
             <span className="footer__price">Прайс-лист</span>
             <img src="/icons/download.svg" className="footer__download"></img>
-          </button>
+          </Button>
           <p className="footer__description">
             Компания «Султан» — снабжаем розничные магазины товарами под ключ в Кокчетаве и Акмолинской области.
           </p>
@@ -25,7 +26,7 @@ export default function Footer() {
               className="footer__subscribe-input"
               placeholder="Введите ваш E-mail"
             />
-            <button type="submit" className="footer__subscribe-button">
+            <button type="button" className="footer__subscribe-button">
               &gt;
             </button>
           </form>
@@ -36,7 +37,7 @@ export default function Footer() {
           <h4 className="footer__title">Меню сайта:</h4>
           <ul className="footer__list">
             <li className="footer__item">
-              <Link href="/basket/" className="footer__link">
+              <Link href="#" className="footer__link">
                 О компании
               </Link>
             </li>
@@ -63,27 +64,27 @@ export default function Footer() {
           <h4 className="footer__title">Категории:</h4>
           <ul className="footer__list">
             <li className="footer__item">
-              <Link href="#" className="footer__link">
+              <Link href="/household-chemials" className="footer__link">
                 Бытовая химия
               </Link>
             </li>
             <li className="footer__item">
-              <Link href="#" className="footer__link">
+              <Link href="/cosmetics-and-hygiene" className="footer__link">
                 Косметика и гигиена
               </Link>
             </li>
             <li className="footer__item">
-              <Link href="#" className="footer__link">
+              <Link href="/household-goods" className="footer__link">
                 Товары для дома
               </Link>
             </li>
             <li className="footer__item">
-              <Link href="#" className="footer__link">
+              <Link href="/products-for-children-and-mothers" className="footer__link">
                 Товары для детей и мам
               </Link>
             </li>
             <li className="footer__item">
-              <Link href="#" className="footer__link">
+              <Link href="/tableware" className="footer__link">
                 Посуда
               </Link>
             </li>
@@ -93,10 +94,10 @@ export default function Footer() {
         {/* Блок скачивания прайс-листа и мессенджеров (4 Колонна) */}
         <div className="footer__downloads">
           <h4 className="footer__title --active">Скачать прайс-лист:</h4>
-          <button className="footer__price-button --active">
+          <Button className="footer__price-button --active">
             <span className="footer__price">Прайс-лист</span>
             <img src="/icons/download.svg" className="footer__download"></img>
-          </button>
+          </Button>
           <p className="footer__text">Связь в мессенджерах:</p>
           <div className="footer__messengers">
             <Link

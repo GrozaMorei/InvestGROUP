@@ -33,7 +33,7 @@
 			}
 		}
 
-		@media(max-width: $tablet-s) {
+		@media (max-width: $tablet-s) {
 			display: none;
 		}
 	}
@@ -55,7 +55,7 @@
 			background-color: $color-faint;
 		}
 
-		@media(max-width: $tablet-s) {
+		@media (max-width: $tablet-s) {
 			display: flex;
 		}
 	}

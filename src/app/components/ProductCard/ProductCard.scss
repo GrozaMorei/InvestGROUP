@@ -106,19 +106,8 @@
   }
 
   &__button {
-    display: flex;
-    align-items: center;
-
+    gap: 0;
     padding: 15px 25px;
-
-    border-radius: 80px;
-    background-color: $color-accent;
-
-    transition: all ease $duration;
-
-    &:hover {
-      background-color: $color-active;
-    }
 
     span {
       margin-right: 5px;

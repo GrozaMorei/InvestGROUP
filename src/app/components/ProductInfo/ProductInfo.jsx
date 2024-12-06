@@ -4,6 +4,7 @@ import { useState, useRef } from 'react';
 import { priceList } from '@/utils/priceList';
 import Accordion from '../UI/Accordion/Accordion';
 import './ProductInfo.scss';
+import Button from '../UI/Button/Button'
 
 export default function ProductInfo({ currentProduct }) {
 	let count = currentProduct.count;
@@ -86,13 +87,13 @@ export default function ProductInfo({ currentProduct }) {
 						</div>
 
 						<div className="product-info__button-inner">
-							<button 
+							<Button 
 								className="product-info__add-to-cart"
 								onClick={ addToCart }
 							>
 								В корзину
 								<img src="/icons/basket-white.svg" alt="Иконка корзины" />
-							</button>
+							</Button>
 							<button
 								className="product-info__share active"
 								onClick={ copyLink }

@@ -6,12 +6,11 @@ import Crumbs from '@/app/components/Crumbs/Crumbs';
 
 export default async function Product({ params }) {
   const { product } = await params;
-  const article = product;
-  const currentProduct = products.find((item) => item.article == article);
+  const currentProduct = products.find((item) => item.article == product);
 
   if (!currentProduct) {
     return (
-      <Undifine message={'товар не найден'}/>
+      <Undifine message={ 'товар не найден' }/>
     );
   }
 
@@ -23,4 +22,3 @@ export default async function Product({ params }) {
     </>
   );
 };
-

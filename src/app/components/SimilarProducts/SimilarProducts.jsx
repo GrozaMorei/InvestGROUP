@@ -1,11 +1,11 @@
 'use client';
 
 import Slider from 'react-slick';
-import ProductCard from '../ProductCard/ProductCard';
-import products from '../../../data/products.json';
-import '../SimilarProducts/SimilarProducts.scss';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import products from '@/data/products.json';
+import ProductCard from '../ProductCard/ProductCard';
+import '../SimilarProducts/SimilarProducts.scss';
 
 export default function SimilarProduct({ currentProduct }) {
   const similarProducts = products.filter(
@@ -55,7 +55,7 @@ export default function SimilarProduct({ currentProduct }) {
 
           <ul className="similar-products__slider">
             <Slider {...settings}>
-              {similarProducts.map((product) => (
+              {similarProducts.slice(0, 8).map((product) => (
                 <li key={product.id}>
                   <ProductCard product={product} />
                 </li>

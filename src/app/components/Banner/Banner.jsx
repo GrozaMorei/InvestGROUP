@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import './Baner.scss'
+import Button from '../UI/Button/Button';
+import './Banner.scss';
 
 export default function Baner() {
 	return (
@@ -10,8 +10,8 @@ export default function Baner() {
 					<div className='baner__main'>
 						<h1 className='baner__main-title'>Бытовая химия, косметика и хозтовары</h1>
 						<span className='baner__main-text'>Оптом по кокчетаву и области</span>
-						<Link href='/#catalog' className='baner__main-link desktop'>В каталог</Link>
-atal					</div>
+						<Button href='/#catalog' className='baner__main-link desktop'>В каталог</Button>
+					</div>
 					<div className='baner__info desktop'>
 						<div className='baner__info-item'>
 							<div className='baner__info-plus'>+</div>
@@ -40,5 +40,5 @@ atal					</div>
 				</div>
 			</div>
 		</section>
-	)
+	);
 }

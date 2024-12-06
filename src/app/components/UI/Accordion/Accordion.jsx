@@ -13,9 +13,7 @@ export default function Accordion({ title, children, className, isOpenDefault = 
       <details className='accordion__details' onClick={toggleAccordion}>
         <summary className='accordion__summary'>
           <span className={`accordion__title ${ className }`} role='term'>
-
             { title }
-
             <img 
               src='/icons/arrow-gray.svg'
               alt='Иконка стерлочки'
@@ -26,9 +24,7 @@ export default function Accordion({ title, children, className, isOpenDefault = 
 
       <div className='accordion__content' role='definition'>
         <div className='accordion__content-body'>
-
           { children }
-
         </div>
       </div>
     </div>

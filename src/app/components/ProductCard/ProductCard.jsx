@@ -1,13 +1,14 @@
 'use client';
 
 import Link from 'next/link';
+import Button from '../UI/Button/Button';
 import './ProductCard.scss';
 
 const ProductCard = ({ product }) => {
   const handleAddToCart = () => {
     // Логика добавления товара в корзину
     console.log(`Добавлено в корзину: ${product.name}`);
-  };
+  }
   
   return (
     <div className="product-card">
@@ -49,14 +50,14 @@ const ProductCard = ({ product }) => {
 
         <div className="product-card__info__bottom">
           <span className="product-card__price">{product.price} ₸</span>
-          <button className="product-card__button">
+          <Button className="product-card__button">
             <span>В корзину</span>
             <img src="/icons/basket-white.svg"></img>
-          </button>
+          </Button>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default ProductCard;

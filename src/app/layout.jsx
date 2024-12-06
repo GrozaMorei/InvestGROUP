@@ -1,8 +1,17 @@
+'use client';
+
 import '../styles/global.scss';
+import { useState } from 'react';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 
 function RootLayout({ children }) {
+  const [isOpenHeader, setIsOpenHeader] = useState(false);
+
+  const toggleMenuHeader = () => {
+    setIsOpenHeader(!isOpenHeader);
+  }
+
   return (
     <html lang="ru">
       <head>
@@ -11,9 +20,11 @@ function RootLayout({ children }) {
         <title>Next JS</title>
       </head>
 
-      <body className="body">
-        <Header />
-        <main className="main"> {children} </main>
+      <body className={`body ${isOpenHeader ? "body__no-scroll" : ""}`}>
+        <Header toggleMenu={ toggleMenuHeader } isOpen={ isOpenHeader } />
+        <main className="main">
+          {children} 
+        </main>
         <Footer />
       </body>
     </html>

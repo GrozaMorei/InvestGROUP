@@ -64,11 +64,13 @@
   background-color: $color-primary;
   transition: all ease 0.4s;
 }
+
 .promo-products__slider .slick-dots li.slick-active button:before {
   width: 26px;
   margin-left: 6px;
   background-color: $color-accent;
 }
+
 .promo-products__slider .slick-arrow {
   height: 0;
   width: 0;

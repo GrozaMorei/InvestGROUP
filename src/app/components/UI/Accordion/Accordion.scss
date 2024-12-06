@@ -1,7 +1,6 @@
 @use '/src/styles/variables.scss' as *;
 
 .accordion {
-
   &__content {
     display: grid;
     grid-template-rows: 0fr;
