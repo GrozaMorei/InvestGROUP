@@ -1,0 +1,20 @@
+@use '/src/styles/variables.scss' as *;
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+
+	padding: 20px 40px;
+	
+	color: $color-white;
+
+	border-radius: 80px;
+	background-color: $color-accent;
+	transition: all ease $duration;
+
+	&:hover {
+		background-color: $color-active;
+	}
+}

@@ -1,4 +1,4 @@
-@import '../../../styles/variables';
+@use '/src/styles/variables.scss' as *;
 
 .contacts {
 	padding-inline: 20px;
@@ -89,52 +89,64 @@
   .contacts__inner {
     padding: 40px 70px;
   }
+
   .contacts__list {
     justify-content: space-between;
     width: min-content;
   }
 }
+
 @media (max-width: 550px) {
   .contacts__map-container {
     padding: 10px 10px 270px;
     background-position: 70% 150%;
   }
+
   .contacts__inner {
     width: auto;
     padding: 25px 15px;
   }
 }
+
 @media (max-width: 400px) {
   .contacts__inner {
     gap: 5px;
   }
+
   .contacts__title {
     font-size: 20px;
     line-height: 24px;
   }
+
   .contacts__description {
     font-size: 12px;
     line-height: 14px;
   }
+	
   .contacts__list {
     gap: 10px;
     width: auto;
   }
+
   .contacts__item {
     gap: 5px;
     height: 65px;
   }
+
   .contacts__item-img {
     display: none;
   }
+
   .contacts__item-title,
   .contacts__item:nth-child(2) .contacts__item-inner {
     margin-left: 0;
   }
+
   .contacts__map-container {
     padding: 10px 10px 175px;
     background-position: 67% -100%;
   }
+	
   .contacts__item-text {
     font-size: 12px;
     line-height: 15px;

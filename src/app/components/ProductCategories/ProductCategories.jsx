@@ -1,10 +1,10 @@
-import './ProductCategories.scss';
+import categories from '/src/data/categories.json';
 import CategoryCard from '../CategoryCard/CategoryCard.jsx';
-import categories from '../../../data/categories.json';
+import './ProductCategories.scss';
 
-const ProductCategories = () => {
+export default function ProductCategories() {
   return (
-    <section className="product-categories">
+    <section className="product-categories" id="catalog">
       <div className="container">
         <h2 className="product-categories__title">
           <span>КАТЕГОРИИ </span> ТОВАРОВ
@@ -16,14 +16,12 @@ const ProductCategories = () => {
 
         <ul className="product-categories__list">
           {categories.map((category) => (
-            <li key={ category.id } className='product-categories__item'>
-              <CategoryCard category={category} />
+            <li key={category.id} className='product-categories__item'>
+              <CategoryCard category={ category } />
             </li>
           ))}
         </ul>
       </div>
     </section>
   );
-};
-
-export default ProductCategories;
+}

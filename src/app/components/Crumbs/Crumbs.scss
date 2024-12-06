@@ -1,0 +1,62 @@
+@use '/src/styles/variables.scss' as *;
+
+.bread-crumbs {
+	color: $color-secondary;
+
+	&__list {
+		display: flex;
+		gap: 10px;
+		margin-top: 45px;
+
+		font-size: 14px;
+		font-weight: 300;
+
+		&-item {
+			padding-right: 10px;
+			border-right: 1px dashed rgba($color-secondary, 0.3);
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			&:last-child {
+				border: none;
+				color: rgba($color-secondary, 0.5);
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				& a:hover {
+					cursor: default;
+				}
+			}
+		}
+
+		@media (max-width: $tablet-s) {
+			display: none;
+		}
+	}
+
+	&__button {
+		display: none;
+		gap: 5px;
+		align-items: center;
+
+		font-size: 10px;
+		font-weight: 600;
+		text-transform: uppercase;
+
+		margin-top: 20px;
+
+		&-img {
+			padding: 12px 14px;
+			border-radius: 50%;
+			background-color: $color-faint;
+		}
+
+		@media (max-width: $tablet-s) {
+			display: flex;
+		}
+	}
+}

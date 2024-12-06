@@ -1,29 +1,29 @@
 'use client';
 
 import Link from 'next/link';
-
+import Button from '../UI/Button/Button';
 import './ProductCard.scss';
 
 const ProductCard = ({ product }) => {
   const handleAddToCart = () => {
     // Логика добавления товара в корзину
     console.log(`Добавлено в корзину: ${product.name}`);
-  };
+  }
   
   return (
     <div className="product-card">
       <div className="product-card__image">
-        <Link href={`/product/${product.id}`} passHref>
+        <Link href={`/${product.category}/${product.article}`} passHref>
           <img src={product.image} alt={product.name} />
         </Link>
         <span className="product-card__tag">Популярное</span>
       </div>
 
       <div className="product-card__info">
-        <Link href={`/product/${product.id}`} passHref>
+        <Link href={`/${product.category}/${product.article}`} passHref>
           <div className="product-card__info__top">
            <div className="product-card__type">
-              <img src={product.type}></img>
+              <img src={product.image_type}></img>
               <span className="product-card__volume">{product.weight}</span>
            </div>
             <h3 className="product-card__title">
@@ -50,14 +50,14 @@ const ProductCard = ({ product }) => {
 
         <div className="product-card__info__bottom">
           <span className="product-card__price">{product.price} ₸</span>
-          <button className="product-card__button">
+          <Button className="product-card__button">
             <span>В корзину</span>
             <img src="/icons/basket-white.svg"></img>
-          </button>
+          </Button>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default ProductCard;

@@ -1,4 +1,4 @@
-@import '../../../styles/variables';
+@use '/src/styles/variables.scss' as *;
 
 .footer {
 	padding: 70px 0 110px;
@@ -62,10 +62,6 @@
 		}
 
 		&-button {
-			display: flex;
-  		justify-content: center;
- 	 		align-items: center;
-
  	 		font-size: 30px;
  	 		font-weight: 500;
 
@@ -76,11 +72,6 @@
 
   		background-color: $color-accent;
   		border-radius: 50%;
-
-  		transition: all ease $duration;
-		}
-		&-button:hover {
-			background-color: $color-active;
 		}
 	}
 
@@ -109,6 +100,7 @@
 	&__link {
 		transition: all ease $duration;
 	}
+	
 	&__link:hover {
 		color: $color-active;
 	}
@@ -125,22 +117,7 @@
 	}
 
 	&__price-button {
-		display: flex;
-  	align-items: center;
-  	gap: 12px;
-
-  	width: 215px;
-  	padding: 20px 50px;
   	margin-top: 25px;
-
-  	border-radius: 80px;
-  	background-color: $color-accent;
-
- 		transition: all ease $duration;
-
-		&:hover {
-			background-color: $color-active;
-		}
 	}
 
 	.--not-active {
@@ -229,12 +206,16 @@
 			display: flex;
 		}
   }
-  .--active {
+
+	.--active,
+  .button.--active {
     display: none;
   }
+
   .footer__downloads {
     order: 1;
   }
+
   .footer__company {
     flex-direction: row;
     flex-wrap: wrap;
@@ -242,11 +223,13 @@
     justify-content: space-between;
     flex-basis: 100%;
   }
+
   .footer__description,
   .footer__price-button,
   .footer__subscribe {
     margin-top: 0;
   }
+
   .footer__text {
     margin-top: 55px;
   }
@@ -256,37 +239,45 @@
   .footer {
     padding: 0;
   }
+
   .footer__container {
     padding: 15px;
     column-gap: 15px;
     row-gap: 25px;
   }
+
   .footer__company {
     height: auto;
     gap: 15px;
   }
+
   .footer__logo img {
     height: 40px;
   }
-  .footer__price-button {
-    width: auto;
+
+  .button.footer__price-button {
     padding: 12px 30px;
     gap: 5px;
   }
+
   .footer__price,
   .footer__description {
     font-size: 12px;
     line-height: 18px;
   }
+
   .footer__subscribe {
     flex-basis: 100%;
   }
+
   .footer__menu {
     gap: 20px;
   }
+
   .footer__item {
     font-size: 12px;
   }
+
   .footer__text {
     width: 110px;
   }

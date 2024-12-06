@@ -1,7 +1,8 @@
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Button from '../UI/Button/Button';
 import './Offers.scss';
-import Slider from 'react-slick';
 
 export default function Offers() {
   const offerCount = 4; // Количество предложений
@@ -34,8 +35,7 @@ export default function Offers() {
                   Условия акции в пару строк, Условия акции в пару строк,
                   Условия акции в пару строк
                 </p>
-                <button className="offers__button">Принять участие</button>
-
+                <Button className="offers__button">Принять участие</Button>
                 <img className="offers__image" src="/images/offers/offer.jpg" alt="Избражение предложения" />
               </div>
 

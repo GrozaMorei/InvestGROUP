@@ -1,4 +1,4 @@
-@use '../../../styles/variables.scss' as *;
+@use '/src/styles/variables.scss' as *;
 
 .product-info {
 	&__container {
@@ -52,7 +52,6 @@
 
 	&__buy-list {
 		display: flex;
-		// justify-content: space-between;
 		align-items: center;
 		flex-wrap: wrap;
 		gap: 20px 40px;
@@ -176,53 +175,23 @@
 				font-weight: 700;
 			}
 
-			smal {
+			span {
 				font-size: 8px;
 				font-weight: 700;
 			}
 		}
 	}
 
-	&__description {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 5px;
+	&__accordion-title {
+		font-size: 16px;
+		font-weight: 500;
+	}
 
-		margin-top: 20px;
-
-		&--button {
-			display: flex;
-			align-items: center;
-			gap: 5px;
-
-			font-size: 16px;
-			font-weight: 500;
-			line-height: 24px;
-
-			padding: 5px 0;
-
-			transition: all ease $duration;
-
-			&:hover {
-				color: $color-accent;
-			}
-		}
-
-		&--img {
-			transform: rotate(-90deg);
-			transition: all ease $duration;
-		}
-
-		&--text {
-			font-size: 12px;
-			font-weight: 300;
-			line-height: 18px;
-			color: $color-secondary;
-
-			overflow: hidden;
-			transition: all ease $duration;
-		}
+	&__accordion-text {
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 18px;
+		color: $color-secondary;
 	}
 
 	.product-info__share {
@@ -251,15 +220,17 @@
 
 // Адаптив
 .product-info {
-	@media (max-width: 1050px) {
+	@media (max-width: $desktop) {
 		&__share {
 			display: none;
 			max-width: 60px;
 		}
+		
 		.product-info__share.active {
 			display: block;
 			min-width: 60px;
 		}
+
 		&__button-inner {
 			flex: 1;
 			display: flex;
@@ -268,31 +239,36 @@
 		}
 	}
 
-	@media (max-width: 800px) {
+	@media (max-width: $tablet) {
 		&__container {
 			gap: 20px;
 		}
+
 		&__title {
 			font-size: 20px;
 			line-height: 24px;
 		}
+
 		&__buy-list &__price {
 			font-size: 20px;
 		}
+
 		&__buy-list &__price-inner &__button {
 			padding: 4px 14px;
 		}
+
 		&__price-list {
 			flex-direction: column;
 			height: auto;
 		}
+
 		&__price-list--info,
 		&__price-download {
 			min-height: 60px;
 		}
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: $tablet_s) {
 		&__container {
 			flex-direction: column;
 		}

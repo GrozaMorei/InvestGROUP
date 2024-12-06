@@ -1,4 +1,4 @@
-@import '../../../styles/variables.scss';
+@use '/src/styles/variables.scss' as *;
 
 .category-card {
 	display: flex;
@@ -29,7 +29,7 @@
 	}
 
 	// АДАПТИВ
-	@media(max-width: 600px) {
+	@media (max-width: 600px) {
 		&__image {
 			max-height: 160px;
 		}
