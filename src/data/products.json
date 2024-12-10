@@ -98,7 +98,6 @@
     "image": "/images/products/sorti.png",
     "image_type": "/icons/products/product-type-buttle.svg",
 
-
     "count": 10,
     "count_box": 2,
     "weight": "450 мл",
@@ -139,7 +138,7 @@
 
     "name": "Автомат гель CVC жидкое в растворимых капсулах",
     "brand": "Ariel",
-    "manufacturer": "Нефис",
+    "manufacturer": "Sants",
     "image": "/images/products/ariel.png",
     "image_type": "/icons/products/product-type-box.svg",
 
@@ -161,7 +160,7 @@
 
     "name": "Порошок стиральный Автомат 100 пятен COMPACT",
     "brand": "Bimax",
-    "manufacturer": "Нефис",
+    "manufacturer": "Armin",
     "image": "/images/products/bimax.png",
     "image_type": "/icons/products/product-type-box.svg",
 
@@ -183,7 +182,7 @@
 
     "name": "Порошок стиральный Автомат 100 пятен COMPACT",
     "brand": "Bimax",
-    "manufacturer": "Нефис",
+    "manufacturer": "Needle",
     "image": "/images/products/bimax.png",
     "image_type": "/icons/products/product-type-box.svg",
 
@@ -292,7 +291,7 @@
     "barcode": 1023129097548,
 
     "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
+    "brand": "Birax",
     "manufacturer": "Нефис",
     "image": "/images/products/bimax.png",
     "image_type": "/icons/products/product-type-box.svg",
@@ -314,7 +313,7 @@
     "barcode": 1238129097548,
 
     "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
+    "brand": "Bimyx",
     "manufacturer": "Нефис",
     "image": "/images/products/bimax.png",
     "image_type": "/icons/products/product-type-box.svg",
