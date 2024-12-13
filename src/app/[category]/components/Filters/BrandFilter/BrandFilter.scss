@@ -1,0 +1,31 @@
+@use '/src/styles/variables.scss' as *;
+
+.brand-filter {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding-top: 20px;
+	border-top: 1px dashed rgba($color-secondary, 0.2);
+
+	&__title {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+
+		&-item {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			color: $color-secondary;
+
+			span {
+				font-size: 10px;
+			}
+		}
+	}
+}

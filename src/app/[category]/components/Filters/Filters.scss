@@ -1,0 +1,15 @@
+@use '/src/styles/variables.scss' as *;
+
+.filters {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 290px;
+
+	&__title {
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: uppercase;
+		color: $color-primary;
+	}
+}
