@@ -1,103 +1,61 @@
-import { useState } from 'react';
-
-import Accordion from '@/app/components/UI/Accordion/Accordion';
-
+import { useEffect, useState } from 'react';
 import products from '@/data/products';
 import './BrandFilter.scss';
 
-const brands = Array.from(new Set(products.map((product) => product.brand)));
-
-const BrandFilter = ({
-  selectedBrands,
-  setSelectedBrands,
-  search,
-  setSearch,
-}) => {
-  const [showAll, setShowAll] = useState(false);
-  const [filteredProducts, setFilteredProducts] = useState(products);
-
-  const filteredBrands = brands.filter((brand) =>
-    brand.toLowerCase().includes(search.toLowerCase())
-  );
-
-  const handleSearch = () => {
-    console.log(`Searching for: ${search}`);
-    // Здесь можно добавить логику для выполнения поиска
-  };
-
-  const handleCheckboxChange = (brand) => {
-    setSelectedBrands((prev) => {
-      const updatedSet = new Set(prev);
-      if (updatedSet.has(brand)) {
-        updatedSet.delete(brand);
-      } else {
-        updatedSet.add(brand);
-      }
-      return updatedSet;
-    });
-  };
-
-  const brandCounts = brands.reduce((acc, brand) => {
-    const count = products.filter((product) => product.brand === brand).length;
-    acc[brand] = count;
+export default function BrandFilter({ delUpdate }) {
+  // Получаем список брендов
+  const brandCounts = products.reduce((acc, product) => {
+    acc[product.brand] = (acc[product.brand] || 0) + 1;
     return acc;
   }, {});
 
-  const displayedBrands = showAll ? filteredBrands : filteredBrands.slice(0, 4);
+  const brands = Object.keys(brandCounts);
+
+  // Состояние для выбранных брендов
+  const [selectedBrands, setSelectedBrands] = useState([]);
+
+   // Для обновления значений при сбросе
+   useEffect(() => {
+    setSelectedBrands([]);
+    localStorage.setItem('selectedBrands', JSON.stringify([]));
+  }, [delUpdate]);
+
+  // Функция записи брендов
+  const handleBrandChange = (brand) => {
+    let updatedBrands;
+
+    // Проверка: если бренд уже выбран - убираем его, иначе добавляем
+    if (selectedBrands.includes(brand)) {
+      updatedBrands = selectedBrands.filter(item => item !== brand);
+    } else {
+      updatedBrands = [...selectedBrands, brand];
+    }
+
+    // Сохраняем новое состояние брендов
+    setSelectedBrands(updatedBrands);
+
+    // Сохраняем значение в localStorage
+    localStorage.setItem('selectedBrands', JSON.stringify(updatedBrands));
+    console.log("сохраняем значение: " + updatedBrands);
+  }
 
   return (
-    <div className="brand-filter">
-      <div className="container">
-        <span className="brand-filter__title">Бренд</span>
-        <div className="brand-filter__main-search">
-          <input
-            className="brand-filter__search"
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Поиск..."
-          />
-          <button className="brand-filter__button" onClick={handleSearch}>
-            <img src="/icons/search-white.svg" alt="Иконка поиска" />
-          </button>
-        </div>
-        <ul className="brand-filter__brands">
-          {displayedBrands.map((brand) => (
-            <li key={brand}>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={selectedBrands.has(brand)}
-                  onChange={() => handleCheckboxChange(brand)}
-                />
-                {brand} ({brandCounts[brand]})
-              </label>
-            </li>
-          ))}
-        </ul>
-        {!showAll && filteredBrands.length > 4 && (
-          <div className="brand-filter__brands__acc">
-            <Accordion title="Показать все">
-              <ul className="brand-filter__brands">
-                {filteredBrands.slice(4).map((brand) => (
-                  <li key={brand}>
-                    <label>
-                      <input
-                        type="checkbox"
-                        checked={selectedBrands.has(brand)}
-                        onChange={() => handleCheckboxChange(brand)}
-                      />
-                      {brand} ({brandCounts[brand]})
-                    </label>
-                  </li>
-                ))}
-              </ul>
-            </Accordion>
-          </div>
-        )}
-      </div>
+    <div className='brand-filter'>
+      <p className='brand-filter__title'>Бренд</p>
+      <ul className='brand-filter__list'>
+        {brands.map((brand) => (
+          <li key={brand}>
+            <label className='brand-filter__list-item'>
+              <input
+                type='checkbox'
+                checked={selectedBrands.includes(brand)}
+                onChange={() => handleBrandChange(brand)}
+              />
+              <p>{brand} <span>({brandCounts[brand]})</span></p>
+            </label>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
-
-export default BrandFilter;

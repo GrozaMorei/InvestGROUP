@@ -1,109 +1,60 @@
-import { useState } from 'react';
-
-import Accordion from '@/app/components/UI/Accordion/Accordion';
+import { useEffect, useState } from 'react';
 import products from '@/data/products';
-
 import './ManufacturerFilter.scss';
 
-const manufacturers = Array.from(
-  new Set(products.map((product) => product.manufacturer))
-);
+export default function ManufacturerFilter({ delUpdate }) {
+  // Получаем список производителей
+  const manufacturerCounts = products.reduce((acc, product) => {
+    acc[product.brand] = (acc[product.brand] || 0) + 1;
+    return acc;
+  }, {});
 
-const ManufacturerFilter = ({
-  selectedManufacturers,
-  setSelectedManufacturers,
-  search,
-  setSearch,
-}) => {
-  const [showAll, setShowAll] = useState(false);
-
-  const filteredManufacturers = manufacturers.filter((manufacturer) =>
-    manufacturer.toLowerCase().includes(search.toLowerCase())
-  );
-
-  const handleSearch = () => {
-    console.log(`Searching for: ${search}`);
-    // Здесь можно добавить логику для выполнения поиска
-  };
-
-  const handleCheckboxChange = (manufacturer) => {
-    setSelectedManufacturers((prev) => {
-      const updatedSet = new Set(prev);
-      if (updatedSet.has(manufacturer)) {
-        updatedSet.delete(manufacturer);
-      } else {
-        updatedSet.add(manufacturer);
-      }
-      return updatedSet;
-    });
-  };
-
-  const getProductCount = (manufacturer) => {
-    return products.filter((product) => product.manufacturer === manufacturer)
-      .length;
-  };
-
-  const displayedManufacturers = showAll
-    ? filteredManufacturers
-    : filteredManufacturers.slice(0, 4);
-
+  const manufacturer = Object.keys(manufacturerCounts);
+  
+  // Состояние для выбранных производителей
+  const [selectedManufacturer, setSelectedManufacturer] = useState([]);
+  
+  // Для обновления значений при сбросе
+  useEffect(() => {
+    setSelectedManufacturer([]);
+    localStorage.setItem('selectedManufacturer', JSON.stringify([]));
+  }, [delUpdate]);
+  
+  // Функция записи производителей
+  const handleManufacturerChange = (manufacturer) => {
+    let updatedManufacturer;
+  
+    // Проверка: если производитель уже выбран - убираем его, иначе добавляем
+    if (selectedManufacturer.includes(manufacturer)) {
+      updatedManufacturer = selectedManufacturer.filter(item => item !== manufacturer);
+    } else {
+      updatedManufacturer = [...selectedManufacturer, manufacturer];
+    }
+  
+    // Сохраняем новое состояние производителей
+    setSelectedManufacturer(updatedManufacturer);
+  
+    // Сохраняем значение в localStorage
+    localStorage.setItem('selectedManufacturer', JSON.stringify(updatedManufacturer));
+  }
+  
   return (
-    <div className="manufacturer-filter">
-      <div className="container">
-        <span className="manufacturer-filter__title">Производитель</span>
-        <div className="manufacturer-filter__main-search">
-          <input
-            className="manufacturer-filter__search"
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Поиск..."
-          />
-          <button
-            className="manufacturer-filter__button"
-            onClick={handleSearch}
-          >
-            <img src="/icons/search-white.svg" alt="Иконка поиска" />
-          </button>
-        </div>
-
-        <ul className="manufacturer-filter__manufacturers">
-          {displayedManufacturers.map((manufacturer) => (
-            <li key={manufacturer}>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={selectedManufacturers.has(manufacturer)}
-                  onChange={() => handleCheckboxChange(manufacturer)}
-                />
-                {manufacturer} ({getProductCount(manufacturer)})
-              </label>
-            </li>
-          ))}
-        </ul>
-        {!showAll && filteredManufacturers.length > 4 && (
-          <div className="manufacturer-filter__manufacturers__acc">
-            <Accordion title="Показать все">
-              <ul className="manufacturer-filter__manufacturers">
-                {filteredManufacturers.slice(4).map((manufacturer) => (
-                  <li key={manufacturer}>
-                    <label>
-                      <input
-                        type="checkbox"
-                        checked={selectedManufacturers.has(manufacturer)}
-                        onChange={() => handleCheckboxChange(manufacturer)}
-                      />
-                      {manufacturer} ({getProductCount(manufacturer)})
-                    </label>
-                  </li>
-                ))}
-              </ul>
-            </Accordion>
-          </div>
-        )}
-      </div>
+    <div className='manufacturer-filter'>
+      <p className='manufacturer-filter__title'>Производитель</p>
+      <ul className='manufacturer-filter__list'>
+        {manufacturer.map((manufacturer) => (
+          <li key={manufacturer}>
+            <label className='manufacturer-filter__list-item'>
+              <input
+                type='checkbox'
+                checked={selectedManufacturer.includes(manufacturer)}
+                onChange={() => handleManufacturerChange(manufacturer)}
+              />
+              <p>{manufacturer} <span>({manufacturerCounts[manufacturer]})</span></p>
+            </label>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
-
-export default ManufacturerFilter;

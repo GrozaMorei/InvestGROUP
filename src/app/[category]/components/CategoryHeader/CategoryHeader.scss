@@ -1,1 +1,9 @@
 @use '/src/styles/variables.scss' as *;
+
+.category-header {
+	.category-header__title {
+		font-size: 40px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+}

@@ -1,63 +1,31 @@
 @use '/src/styles/variables.scss' as *;
 
 .brand-filter {
-  .container {
-    margin-top: 20px;
-  }
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding-top: 20px;
+	border-top: 1px dashed rgba($color-secondary, 0.2);
 
-  &__title {
-    color: $color-primary;
-    font-size: 16px;
-    font-weight: 500;
-  }
+	&__title {
+		font-size: 16px;
+		font-weight: 500;
+	}
 
-  &__main-search {
-    display: flex;
-    margin-top: 16px;
-    padding: 10px;
-    gap: 26px;
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
 
-    border-radius: 80px;
-    background-color: $color-gray;
+		&-item {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			color: $color-secondary;
 
-    input {
-      max-width: 200px;
-      padding-left: 10px;
-      background-color: inherit;
-    }
-
-    button {
-      padding: 11px 12px;
-      border-radius: 50%;
-      background-color: $color-accent;
-      transition: all ease $duration;
-
-      &:hover {
-        background-color: $color-active;
-      }
-    }
-  }
-
-  &__brands {
-    margin-top: 16px;
-
-    li {
-      margin-top: 6px;
-      height: 20px;
-      color: $color-secondary;
-    }
-
-    input {
-      margin-right: 10px;
-    }
-
-    &__acc {
-      margin-top: 16px;
-      color: $color-secondary;
-    }
-  }
-
-  &__show-button {
-    margin-top: 16px;
-  }
+			span {
+				font-size: 10px;
+			}
+		}
+	}
 }

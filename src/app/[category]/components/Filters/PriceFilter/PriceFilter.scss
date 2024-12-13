@@ -1,40 +1,31 @@
 @use '/src/styles/variables.scss' as *;
 
 .price-filter {
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+	flex-direction: column;
+	gap: 15px;
 
-  &__title {
-    color: $color-primary;
-    font-size: 16px;
-    font-weight: 500;
-  }
+	&__title {
+		font-size: 14px;
+		font-weight: 300;
+		color: $color-secondary;
+	}
 
-  &__pr {
-    margin-top: 10px;
-    color: $color-secondary;
-    font-size: 16px;
-    font-weight: 300;
-  }
+	&__inner {
+		display: flex;
+		align-items: center;
+		gap: 10px;
 
-  &__range {
-    display: flex;
-    align-items: center;
-    margin-top: 16px;
-    gap: 10px;
+		input {
+			font-size: 12px;
+			font-weight: 300;
+			text-align: center;
 
-    &__min,
-    &__max {
-      input {
-        text-align: center;
-        width: 100px;
-        height: 24px;
-        padding: 4px;
-        border-radius: 10px;
-        background-color: $color-faint;
-      }
-    }
-  }
+			width: 100px;
+			padding: 5px 0;
+
+			border-radius: 20px;
+			background-color: $color-faint;
+		}
+	}
 }
