@@ -1,0 +1,32 @@
+@use '/src/styles/variables.scss' as *;
+
+.button-filter {
+	display: flex;
+	gap: 10px;
+	margin-top: 10px;
+
+	& * {
+		height: 60px;
+		width: 60px;
+		padding: 0;
+		font-size: 14px;
+		font-weight: 700;
+
+		img {
+			height: 30px;
+		}
+
+		@media (max-width: $mobile) {
+			height: 40px;
+			width: 40px;
+		}
+	}
+
+	&__btn {
+		width: 100%;
+
+		@media (max-width: $mobile) {
+			border-radius: 16px;
+		}
+	}
+}

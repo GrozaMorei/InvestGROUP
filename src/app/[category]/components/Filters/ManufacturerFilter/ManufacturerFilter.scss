@@ -1,0 +1,38 @@
+@use '/src/styles/variables.scss' as *;
+
+.manufacturer-filter {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin: 5px 0;
+
+	&__title {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+
+		&-item {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			color: $color-secondary;
+
+			input:checked {
+				accent-color: $color-active;
+			}
+
+			input {
+				color: $color-white;
+			}
+
+			span {
+				font-size: 10px;
+			}
+		}
+	}
+}

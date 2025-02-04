@@ -1,6 +1,7 @@
-module.exports = {
-  i18n: {
+/** @type {import('next-i18next').UserConfig} */
+module.exports = 
+  {i18n: {
     defaultLocale: 'ru',
-    locales: ['en', 'ru'],
+    locales: ['ru', 'en'],
   },
-};
+}

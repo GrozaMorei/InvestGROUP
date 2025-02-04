@@ -1,0 +1,92 @@
+@use '/src/styles/variables.scss' as *;
+
+.brands {
+	&__container {
+		display: flex;
+  	flex-direction: column;
+  	gap: 15px;
+    padding-inline: 0;
+	}
+
+	&__title {
+		font-size: 48px;
+  	font-weight: 500;
+  	text-transform: uppercase;
+    margin-left: 15px;
+
+		span {
+			font-weight: 800;
+  		color: $color-accent;
+		}
+	}
+
+	&__description {
+		font-size: 20px;
+  	font-weight: 300;
+    margin-left: 15px;
+	}
+}
+
+// СТИЛИ СЛАЙДЕРА
+.brands .slick-slider {
+  margin-bottom: 15px;
+}
+.brands__item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin: 35px 10px;
+  padding-inline: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px #2b1c010a;
+}
+.brands .slick-dots li button:before {
+  content: '';
+  height: 7px;
+  width: 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  background-color: $color-primary;
+  transition: all ease 0.4s;
+}
+.brands .slick-dots li.slick-active button:before {
+  width: 25px;
+  margin-left: 5px;
+  background-color: $color-accent;
+}
+.brands .slick-arrow {
+  height: 0;
+  width: 0;
+  right: 0;
+  left: 0;
+}
+
+// АДАПТИВ
+@media (max-width: 850px) {
+  .brands__title {
+    font-size: 32px;
+  }
+  .brands__description {
+    font-size: 16px;
+  }
+
+  .brands__item {
+    margin: 25px 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .brands__container {
+    gap: 10px;
+  }
+  .brands__title {
+    font-size: 20px;
+  }
+  .brands__description {
+    font-size: 14px;
+  }
+
+  .brands__item {
+    margin: 10px 5px;
+  }
+}

@@ -1,0 +1,38 @@
+@use '/src/styles/variables.scss' as *;
+
+.accordion {
+  &__content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition-duration: $duration-l;
+
+    &-body {
+      overflow: hidden;
+      padding-top: 15px;
+    }
+  }
+
+  &__details[open] + &__content {
+    grid-template-rows: 1fr;
+  }
+
+  &__summary::marker {
+    content: none;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  &__icon {
+    transform: rotate(0deg);
+    transition: all ease $duration;
+
+    &--rotated {
+      transform: rotate(90deg);
+    }
+  }
+}

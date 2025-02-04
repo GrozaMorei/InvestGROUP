@@ -1,0 +1,10 @@
+@use '/src/styles/variables.scss' as *;
+
+.container {
+	width: 100%;
+}
+.category__inner {
+	display: flex;
+	width: 100%;
+	gap: 15px;
+}

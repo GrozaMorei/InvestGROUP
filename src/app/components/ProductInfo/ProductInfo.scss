@@ -1,0 +1,277 @@
+@use '/src/styles/variables.scss' as *;
+
+.product-info {
+	&__container {
+		display: flex;
+		gap: 40px;
+	}
+
+	&__left,
+	&__right {
+		flex: 1;
+	}
+
+	&--images {
+		width: 100%;
+		max-height: 300px;
+		object-fit: contain;
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	&__existence {
+		font-weight: 500;
+		line-height: 18px;
+		color: $color-green;
+
+		&--off {
+			color: $color-red;
+		}
+	}
+
+	&__title {
+		font-size: 30px;
+		font-weight: 500;
+		line-height: 45px;
+
+		b {
+			font-weight: 800;
+		}
+	}
+
+	&__type {
+		display: flex;
+		gap: 5px;
+		font-size: 12px;
+		align-items: center;
+	}
+
+	&__buy-list {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px 40px;
+
+		margin-top: 15px;
+
+		.product-info__price {
+			min-width: 170px;
+			font-size: 30px;
+			font-weight: 800;
+			line-height: 40px;
+		}
+
+		.product-info__price-inner {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+
+			font-weight: 500;
+			color: $color-secondary;
+
+			.product-info__button {
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 14px;
+
+				padding: 5px 15px;
+
+				background-color: $color-faint;
+				border-radius: 10px;
+
+				transition: all ease $duration;
+
+				&:hover {
+					background-color: $color-accent;
+				}
+			}
+		}
+
+		.product-info__add-to-cart {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+
+			color: $color-white;
+			font-weight: 700;
+			line-height: 16px;
+
+			padding: 20px 40px;
+
+			border-radius: 80px;
+			background-color: $color-accent;
+			transition: all ease $duration;
+
+			&:hover {
+				background-color: $color-active;
+			}
+		}
+	}
+
+	&__price-list {
+		display: flex;
+		gap: 10px;
+		height: 70px;
+		margin-top: 10px;
+
+		.product-info__price-list--info {
+			flex: 4;
+			display: flex;
+			align-items: center;
+
+			font-size: 12px;
+			line-height: 18px;
+			text-align: center;
+
+			padding: 0px 30px;
+
+			color: $color-secondary;
+			border-radius: 10px;
+			box-shadow: 0 15px 80px #2b1c011f;
+
+			span {
+				display: inline;
+				font-weight: 700;
+			}
+		}
+
+		.product-info__price-download {
+			flex: 3;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+
+			color: $color-secondary;
+			font-weight: 700;
+
+			border-radius: 10px;
+			box-shadow: 0 15px 80px #2b1c011f;
+			transition: all ease $duration;
+
+			&:hover {
+				background-color: $color-accent;
+			}
+		}
+	}
+
+	&__info-block {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+
+		margin-top: 25px;
+
+		.product-info__item {
+			font-weight: 300;
+			line-height: 20px;
+			color: $color-secondary;
+
+			b {
+				color: $color-primary;
+				font-weight: 700;
+			}
+
+			span {
+				font-size: 8px;
+				font-weight: 700;
+			}
+		}
+	}
+
+	&__accordion-title {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	&__accordion-text {
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 18px;
+		color: $color-secondary;
+	}
+
+	.product-info__share {
+		flex: 1;
+		align-items: center;
+
+		border-radius: 10px;
+		box-shadow: 0 15px 80px #2b1c011f;
+		transition: all ease $duration;
+
+		&--img {
+			height: 24px;
+			width: 24px;
+			margin: 0 auto;
+		}
+
+		&:hover {
+			background-color: $color-secondary;
+		}
+	}
+
+	.product-info__share.active {
+		display: none;
+	}
+}
+
+// Адаптив
+.product-info {
+	@media (max-width: $desktop) {
+		&__share {
+			display: none;
+			max-width: 60px;
+		}
+		
+		.product-info__share.active {
+			display: block;
+			min-width: 60px;
+		}
+
+		&__button-inner {
+			flex: 1;
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+		}
+	}
+
+	@media (max-width: $tablet) {
+		&__container {
+			gap: 20px;
+		}
+
+		&__title {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		&__buy-list &__price {
+			font-size: 20px;
+		}
+
+		&__buy-list &__price-inner &__button {
+			padding: 4px 14px;
+		}
+
+		&__price-list {
+			flex-direction: column;
+			height: auto;
+		}
+
+		&__price-list--info,
+		&__price-download {
+			min-height: 60px;
+		}
+	}
+
+	@media (max-width: $tablet_s) {
+		&__container {
+			flex-direction: column;
+		}
+	}
+}

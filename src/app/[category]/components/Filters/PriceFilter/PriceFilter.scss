@@ -1,0 +1,40 @@
+@use '/src/styles/variables.scss' as *;
+
+.price-filter {
+  display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+	&__title {
+		font-size: 14px;
+		font-weight: 300;
+		color: $color-secondary;
+	}
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		input {
+			font-size: 12px;
+			font-weight: 300;
+			text-align: center;
+
+			width: 100px;
+			padding: 5px 0;
+
+			border-radius: 20px;
+			background-color: $color-faint;
+
+			-moz-appearance: textfield;
+			-webkit-appearance: none;
+			appearance: none;
+		}
+			
+		input::-webkit-inner-spin-button,
+		input::-webkit-outer-spin-button {
+			display: none;
+		}
+	}
+}
