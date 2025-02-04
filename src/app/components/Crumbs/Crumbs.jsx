@@ -48,9 +48,9 @@ export default function BreadCrumps({ currentProduct, margin }) {
   });
 
   return (
-    <article className="bread-crumbs" style={{margin: margin}}>
+    <article className="bread-crumbs">
       <div className="bread-crumbs__container container">
-        <ul className="bread-crumbs__list">
+        <ul className="bread-crumbs__list" style={{margin: margin}}>
           {/* Главная страница */}
           <li key="home" className="bread-crumbs__list-item">
             <Link href="/">{translateToRussian('/')}</Link>
