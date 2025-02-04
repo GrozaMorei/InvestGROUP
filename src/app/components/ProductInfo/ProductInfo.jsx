@@ -1,47 +1,20 @@
 'use client'
 
-import { useState, useRef } from 'react';
-import { priceList } from '@/utils/priceList';
+import { useEffect, useState } from 'react';
 import Accordion from '../UI/Accordion/Accordion';
+import Button from '../UI/Button/Button';
+import CountForBasket from '../UI/CountForBasket/CountForBasket';
+import getCountProduct from '@/utils/getCountProduct';
 import './ProductInfo.scss';
-import Button from '../UI/Button/Button'
 
 export default function ProductInfo({ currentProduct }) {
-	let count = currentProduct.count;
-	const [thisCount, setThisCount] = useState(0);
-
-	// Уменьшение количества товара
-	const decreaseCount = () => {
-		if (thisCount > 0) {
-			setThisCount(thisCount - 1);
-		}
-	}
-
-	// Увеличение количества товара
-	const increaseCount = () => {
-		if (thisCount < count) {
-			setThisCount(thisCount + 1);
-		}
-	}
-
-	// Добавление в корзину
-	const addToCart = () => {
-		console.log(`В корзину было добавлено ${thisCount} товара "${currentProduct.name}"`);
-		currentProduct.count -= thisCount;
-		setThisCount(0);
-	}
-
-	// Копирование ссылки
-	const copyLink = () => {
-		const currentUrl = window.location.href;  // Получаем текущий URL страницы
-    navigator.clipboard.writeText(currentUrl)  // Копируем URL в буфер обмена
-		alert('Ссылка была успешна скопирована');
-	}
-
-	// Прайс лист
-	const showPriceList = () => {
-		priceList('Прайс-лист');
-	}
+	const [priceProduct, setPriceProduct] = useState(currentProduct.price);
+	useEffect(() => {
+		// Проверяем, есть ли товар в корзине
+		if (getCountProduct(currentProduct.barcode) !== 0) {
+			setPriceProduct(getCountProduct(currentProduct.barcode)*currentProduct.price);
+		};
+	});
 
   return (
     <section className='product-info'>
@@ -69,34 +42,18 @@ export default function ProductInfo({ currentProduct }) {
 					</div>
 
 					<div className="product-info__buy-list">
-						<span className="product-info__price">{ currentProduct.price } ₸</span>
-						<div className="product-info__price-inner">
-							<button 
-						  	className="product-info__button product-info__button--decrease"
-								onClick={ decreaseCount }
-							>
-								-
-							</button>
-							<span className="product-info__count">{ thisCount }</span>
-							<button
-          			className="product-info__button product-info__button--increase"
-          			onClick={ increaseCount }
-        			>
-          			+
-        			</button>
-						</div>
+						<span className="product-info__price">{ Number(priceProduct).toFixed(2) } ₸</span>
+						<CountForBasket product={currentProduct} setPriceProduct={setPriceProduct}/>
 
 						<div className="product-info__button-inner">
 							<Button 
 								className="product-info__add-to-cart"
-								onClick={ addToCart }
 							>
 								В корзину
 								<img src="/icons/basket-white.svg" alt="Иконка корзины" />
 							</Button>
 							<button
 								className="product-info__share active"
-								onClick={ copyLink }
 							>
 								<img src="/icons/link.svg" alt="Иконка ссылки" className="product-info__share--img" />
 							</button>
@@ -107,7 +64,6 @@ export default function ProductInfo({ currentProduct }) {
 					<div className="product-info__price-list">
 						<button
 							className="product-info__share"
-							onClick={ copyLink }
 						>
 							<img src="/icons/link.svg" alt="Иконка ссылки" className="product-info__share--img" />
 						</button>
@@ -120,7 +76,6 @@ export default function ProductInfo({ currentProduct }) {
 
 						<button 
 							className="product-info__price-download"
-							onClick={ showPriceList }
 						>
 							Прайс-лист
 							<img src="/icons/download-gray.svg" alt="Иконка загрузки" className="product-info__price-download--img" />

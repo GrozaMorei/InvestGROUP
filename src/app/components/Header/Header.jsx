@@ -1,10 +1,15 @@
+import { useModal } from '../UI/ModalPrice/ModalPrice';
 import Link from 'next/link';
 import Button from '../UI/Button/Button';
 import './Header.scss';
 
 export default function Header({ toggleMenu, isOpen }) {
+	// Модальное окно
+	const { openModal, ModalWrapper } = useModal();
+
 	return (
 		<header className='header'>
+			<ModalWrapper />
 			<section className={`header-top ${isOpen ? 'active' : ''}`}>
 				<div className="header-top__container container ">
 					<ul className='header-top__info'>
@@ -60,7 +65,7 @@ export default function Header({ toggleMenu, isOpen }) {
 								</li>
 							</ul>
 						</nav>
-						<Button className='header-top__menu-price price mobile'>
+						<Button className='header-top__menu-price price mobile' onClick={() => openModal()}>
 							<span className='header-top__price-text price-text'>Прайс-лист</span>
 							<img src="/icons/download.svg" alt="Иконка загрузки" />
 						</Button>
@@ -99,18 +104,13 @@ export default function Header({ toggleMenu, isOpen }) {
 							</div>
 							<img src="/images/header/contact.png" alt="Изображение девушки" />
 						</div>
-						<Button className="header-bottom__main-price price">
+						<Button className="header-bottom__main-price price" onClick={() => openModal()}>
 							Прайс-лист
 							<img src="/icons/download.svg" alt="Иконка скачивания" />
 						</Button>
-						<Link className="header-bottom__main-basket" href="basket">
+						<Link className="header-bottom__main-basket" href="/basket">
 							<div className="header-bottom__main-basket__img">
 								<img src="/icons/basket-gray.svg" alt="Иконка корзины" />
-								<span className="header-bottom__basket-count">0</span>
-							</div>
-							<div className="header-bottom__main-basket__text">
-								<span className="header-bottom__basket-text">Корзина</span>
-								<h3 className="header-bottom__basket-summ">12 478 ₸</h3>
 							</div>
 						</Link>
 					</div>

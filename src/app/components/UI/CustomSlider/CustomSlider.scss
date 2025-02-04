@@ -1,0 +1,47 @@
+@use '/src/styles/variables.scss' as *;
+
+.custom-slider {
+  .slick-track {
+    padding: 25px 0;
+  }
+  .slick-slider {
+    margin-bottom: 0px;
+  }
+
+  .brands__item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 35px 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #2b1c010a;
+  }
+
+  .slick-dots {
+    bottom: -25px;
+    right: 5px;
+  }
+
+  .slick-dots li button:before {
+    content: '';
+    height: 7px;
+    width: 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    opacity: 0.15;
+    background-color: $color-secondary;
+    transition: all ease 0.4s;
+  }
+
+  .slick-dots li.slick-active button:before {
+    width: 25px;
+    margin-left: 5px;
+    opacity: 1;
+    background-color: #ffffff;
+
+    @media (max-width: 600px) {
+      background-color: $color-accent;
+    }
+  }
+}

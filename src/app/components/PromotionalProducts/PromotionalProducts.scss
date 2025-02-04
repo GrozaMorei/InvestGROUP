@@ -8,7 +8,7 @@
   &__slider {
     display: none;
 
-    @media (max-width: 660px) {
+    @media (max-width: $tablet_s) {
       display: block;
     }
   }
@@ -33,47 +33,24 @@
   }
 
   &__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+    margin: 50px 14px 0;
 
-    margin-top: 50px;
-
-    @media (max-width: 1000px) {
-      gap: 30px;
+    @media (max-width: $desctop-l) {
+      grid-template-columns: repeat(3, 1fr);
     }
 
-    @media (max-width: 660px) {
+    @media (max-width: $desktop) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 25px 5px 0;
+    }
+
+    @media (max-width: $tablet_s) {
       display: none;
     }
   }
-}
-
-.promo-products__slider .slick-slide {
-  padding: 26px 0;
-}
-
-// Настройка слайдера
-.promo-products__slider .slick-dots li button:before {
-  content: '';
-  height: 8px;
-  width: 16px;
-  margin-left: 8px;
-  border-radius: 4px;
-  background-color: $color-primary;
-  transition: all ease 0.4s;
-}
-
-.promo-products__slider .slick-dots li.slick-active button:before {
-  width: 26px;
-  margin-left: 6px;
-  background-color: $color-accent;
-}
-
-.promo-products__slider .slick-arrow {
-  height: 0;
-  width: 0;
-  right: 0;
-  left: 0;
 }

@@ -9,7 +9,7 @@ function translateToRussian(element) {
   return translationsURL[element] || element;
 }
 
-export default function BreadCrumps({ currentProduct }) {
+export default function BreadCrumps({ currentProduct, margin }) {
   const pathName = usePathname();
   const pathSegments = pathName.split('/').filter(Boolean);
   let basePath = '';
@@ -48,8 +48,8 @@ export default function BreadCrumps({ currentProduct }) {
   });
 
   return (
-    <article className="bread-crumbs">
-      <div className="container bread-crumbs__container">
+    <article className="bread-crumbs" style={{margin: margin}}>
+      <div className="bread-crumbs__container container">
         <ul className="bread-crumbs__list">
           {/* Главная страница */}
           <li key="home" className="bread-crumbs__list-item">
