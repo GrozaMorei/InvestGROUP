@@ -4,439 +4,1341 @@
     "article": 182547,
     "barcode": 1825479097548,
 
-    "name": "Средство для мытья посуды Апельсин + мята",
-    "brand": "AOS",
-    "manufacturer": "Нэфис",
-    "image": "/images/products/ariel.png",
+    "name": "Средство для мытья полов и стен MR.PROPER с ароматом лимона",
+    "brand": "MR.PROPER",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/proper-1.png",
     "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "450 мл",
-    "size": "10x10x10",
-    "price": 2,
+    "count": 47,
+    "count_box": 1,
+    "weight": "1л",
+    "size": "128x54x27",
+    "price": 219.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для уборки"],
+    "description": "Средство для мытья полов и стен MR.PROPER с ароматом лимона – универсальное моющее средство. MR.PROPER идеально подходит для очищения практически любых твердых поверхностей в доме. Его можно использовать для мытья кухонных раковин, удаления жира с плиты и даже для пола. Подробные инструкции по применению указаны на упаковке. После очищения поверхностей, соприкасающихся с пищевыми продуктами, необходимо промыть их водой. Удаляет до 100% грязи, жира и въевшихся пятен. Универсальное моющее средство MR.PROPER – это решение для всего дома. Эффективное очищение практически любых поверхностей. Придает свежесть и невероятный блеск. Очищает даже в холодной воде, позволяя экономить электроэнергию."
   },
   {
     "id": 1,
     "article": 901824,
     "barcode": 9018249097548,
 
-    "name": "Средство для мытья посуды",
-    "brand": "AOS",
-    "manufacturer": "Нефис",
-    "image": "/images/products/ariel.png",
+    "name": "Средство для мытья полов MR.PROPER с ароматом лимона",
+    "brand": "MR.PROPER",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/proper-2.png",
     "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "450 мл",
-    "size": "10x10x10",
-    "price": 40,
+    "count": 20,
+    "count_box": 1,
+    "weight": "1.5л",
+    "size": "54x128x278",
+    "price": 319.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для уборки"],
+    "description": "Средство для мытья полов MR.PROPER с ароматом лимона идеально подходит для очищения практически любых твердых поверхностей в доме. Его можно использовать для мытья кухонных раковин, удаления жира с плиты и даже для пола. Подробные инструкции по применению указаны на упаковке. После очищения поверхностей, соприкасающихся с пищевыми продуктами, необходимо промыть их водой. Придает свежесть и невероятный блеск."
   },
   {
     "id": 2,
     "article": 947112,
     "barcode": 9471129097548,
 
-    "name": "Автомат гель СМС жидкое в растворимых капсулах",
-    "brand": "Ariel",
-    "manufacturer": "Нефис",
-    "image": "/images/products/ariel.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Средство для мытья полов и стен MR.PROPER Свежесть Ambi Pur",
+    "brand": "MR.PROPER",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/proper-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "15Х28.8 г",
-    "size": "10x10x10",
-    "price": 50,
+    "count": 48,
+    "count_box": 1,
+    "weight": "1л",
+    "size": "54x128x278",
+    "price": 209.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для уборки"],
+    "description": "Средство для мытья полов и стен MR.PROPER Свежесть Ambi Pur «Лавандовое спокойствие» – универсальное моющее средство. MR.PROPER идеально подходит для очищения практически любых твердых поверхностей в доме. Его можно использовать для мытья кухонных раковин, удаления жира с плиты и даже для пола. Подробные инструкции по применению указаны на упаковке. После очищения поверхностей, соприкасающихся с пищевыми продуктами, необходимо промыть их водой."
   },
   {
     "id": 3,
     "article": 882903,
     "barcode": 8829039097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Средство для мытья полов и стен MR.PROPER Свежесть Ambi Pu",
+    "brand": "MR.PROPER",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/proper-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 56,
+    "count_box": 1,
+    "weight": "1л",
+    "size": "128x54x278",
+    "price": 209.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для уборки"],
+    "description": "Средство для мытья полов и стен MR.PROPER Свежесть Ambi Pur «Горный ручей и прохлада» – универсальное моющее средство. MR.PROPER идеально подходит для очищения практически любых твердых поверхностей в доме. Его можно использовать для мытья кухонных раковин, удаления жира с плиты и даже для пола. Подробные инструкции по применению указаны на упаковке. После очищения поверхностей, соприкасающихся с пищевыми продуктами, необходимо промыть их водой."
   },
   {
     "id": 4,
     "article": 372493,
     "barcode": 3724939097548,
 
-    "name": "Средство для мытья посуды Апельсин + мята",
-    "brand": "AOS",
-    "manufacturer": "Нефис",
-    "image": "/images/products/sorti.png",
+    "name": "Средство для посудомоечных машин FINISH Power",
+    "brand": "FINISH",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/finish-1.png",
     "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "450 мл",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 12,
+    "count_box": 50,
+    "weight": "-",
+    "size": "230x75x250",
+    "price": 1199.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Для посудомойки"],
+    "description": "Средство для посудомоечных машин FINISH Power – защита и забота о материале, глубокое очищение, ослепительный блеск, эффективное очищение и блеск, безупречный блеск, превосходное очищение. Отмоет любые загрязнения на посуде."
   },
   {
     "id": 5,
     "article": 191233,
     "barcode": 1912339097548,
 
-    "name": "Средство для мытья посуды",
-    "brand": "AOS",
-    "manufacturer": "Нефис",
-    "image": "/images/products/aos.png",
+    "name": "Средство для посудомоечных машин FINISH Power",
+    "brand": "FINISH",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/finish-2.png",
     "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "450 мл",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 29,
+    "count_box": 100,
+    "weight": "-",
+    "size": "260x120x300",
+    "price": 1599.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Для посудомойки"],
+    "description": "Средство для посудомоечных машин FINISH Power – защита и забота о материале, глубокое очищение, ослепительный блеск, эффективное очищение и блеск, безупречный блеск, превосходное очищение. Отмоет любые загрязнения на посуде."
   },
   {
     "id": 6,
     "article": 821721,
     "barcode": 8217219097548,
 
-    "name": "Автомат гель CVC жидкое в растворимых капсулах",
-    "brand": "Ariel",
-    "manufacturer": "Sants",
-    "image": "/images/products/ariel.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Средство для посудомоечных машин FINISH Quantum",
+    "brand": "FINISH",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/finish-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "15Х28.8 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 24,
+    "count_box": 70,
+    "weight": "-",
+    "size": "240x115x305",
+    "price": 1679.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Для посудомойки"],
+    "description": "Средство для посудомоечных машин FINISH Quantum – защита и забота о материале, глубокое очищение, ослепительный блеск, эффективное очищение и блеск, безупречный блеск, превосходное очищение. Эффективная формула справляется с загрязнениями, пригоревшей пищей, и обеспечивает отличный результат каждый раз."
   },
   {
     "id": 7,
     "article": 381241,
     "barcode": 3812419097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Armin",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Средство для посудомоечных машин FINISH Power",
+    "brand": "FINISH",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/finish-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 18,
+    "count_box": 70,
+    "weight": "-",
+    "size": "230x92x270",
+    "price": 1669.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Для посудомойки"],
+    "description": "Средство для посудомоечных машин FINISH Power – защита и забота о материале, глубокое очищение, ослепительный блеск, эффективное очищение и блеск, безупречный блеск, превосходное очищение. Отмоет любые загрязнения на посуде."
   },
   {
     "id": 8,
     "article": 291234,
     "barcode": 2912349097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Needle",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Средство для посудомоечных машин FINISH Quantum",
+    "brand": "FINISH",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/finish-5.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 20,
+    "count_box": 60,
+    "weight": "-",
+    "size": "220x97x265",
+    "price": 1499.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Для посудомойки"],
+    "description": "Средство для посудомоечных машин FINISH Quantum – защита и забота о материале, глубокое очищение, ослепительный блеск, эффективное очищение и блеск, безупречный блеск, превосходное очищение. Эффективная формула справляется с загрязнениями, пригоревшей пищей, и обеспечивает отличный результат каждый раз."
   },
   {
     "id": 9,
     "article": 839212,
     "barcode": 8392129097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Таблетки для посудомоечной машины FINISH Power Лимон",
+    "brand": "FINISH",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/finish-6.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 13,
+    "count_box": 70,
+    "weight": "-",
+    "size": "92x230x270",
+    "price": 1699.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Для посудомойки"],
+    "description": "Таблетки для посудомоечной машины FINISH Power Лимон – это удобные в использовании мультифункциональные таблетки для посудомоечной машины. Красный ингредиент таблетки Powerball отмывает посуду до сияющего блеска. Эффективная формула справляется с загрязнениями, пригоревшей пищей и обеспечивает отличный результат каждый раз. Для достижения максимального результата и при очень жесткой воде рекомендуем попробовать специальную соль и ополаскиватель FINISH."
   },
   {
     "id": 10,
     "article": 984812,
     "barcode": 9848129097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
+    "name": "Стиральный порошок МИФ Морозная свежесть",
+    "brand": "МИФ",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/miph-1.png",
     "image_type": "/icons/products/product-type-box.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 69,
+    "count_box": 1,
+    "weight": "400г",
+    "size": "34x123x191",
+    "price": 79.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Стиральные порошки", "Средства для стирки"],
+    "description": "Стиральный порошок МИФ «Аквапудра Морозная Свежесть» – это новая формула для сияющей белизны с технологией против разводов. Стиральный порошок растворяется, едва коснувшись воды, и моментально активируется: удаляет даже трудновыводимые пятна и придает одежде сияющую белизну. Он помогает эффективно справляться с загрязнениями, не оставляя разводов на ткани. Только чистота и морозная свежесть! Стиральный порошок МИФ «Аквапудра Морозная Свежесть» обладает новым улучшенным ароматом, не содержит фосфатов и хлорного отбеливателя. Для отбеливания производитель подбирает кислородосодержащие отбеливатели и безопасные дозировки. Все активные компоненты полностью биоразлагаемы. Усилить эффект поможет кондиционер для белья LENOR: он не только придает свежесть и мягкость белью, но и защищает одежду от появления катышков, потери формы и потери цвета. Теперь любимые вещи прослужат еще дольше."
   },
   {
     "id": 11,
     "article": 742312,
     "barcode": 7423129097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
+    "name": "Стиральный порошок МИФ Морозная свежесть, автомат",
+    "brand": "МИФ",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/miph-2.png",
     "image_type": "/icons/products/product-type-box.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 8,
+    "count_box": 1,
+    "weight": "6кг",
+    "size": "80x270x450",
+    "price": 799.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Стиральные порошки", "Средства для стирки"],
+    "description": "Стиральный порошок МИФ «Аквапудра Морозная Свежесть» – это новая, лучшая формула МИФ для сияющей белизны, с технологией против разводов. Стиральный порошок МИФ «Аквапудра» растворяется едва коснувшись воды, и моментально активируется: удаляет даже трудновыводимые пятна и придает одежде сияющую белизну. С помощью технологии против разводов МИФ помогает эффективно справляться с загрязнениями, не оставляя разводов на одежде. Только чистота и морозная свежесть! Не содержит фосфатов и хлорного отбеливателя. Удаляет трудновыводимые пятна, оставляя только аромат свежести и чистоты. МИФ тщательно подбирает ингредиенты для своих средств. Для отбеливания подбираются кислородосодержащие отбеливатели и безопасные дозировки. Все активные компоненты полностью биоразлагаемы. Для большего эффекта используйте кондиционер для белья LENOR: он не только придает свежесть и мягкость белью, но и защищает одежду от появления катышков, потери формы и потери цвета. Теперь любимые вещи прослужат еще дольше."
   },
   {
     "id": 12,
     "article": 129000,
     "barcode": 1290009097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
+    "name": "Стиральный порошок МИФ Морозная свежесть, автомат",
+    "brand": "МИФ",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/miph-3.png",
     "image_type": "/icons/products/product-type-box.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 18,
+    "count_box": 1,
+    "weight": "2кг",
+    "size": "120x215x320",
+    "price": 349.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Стиральные порошки", "Средства для стирки"],
+    "description": "Стиральный порошок МИФ «Аквапудра Морозная Свежесть» – это новая, лучшая формула МИФ для сияющей белизны, с технологией против разводов. Стиральный порошок МИФ «Аквапудра» растворяется едва коснувшись воды, и моментально активируется: удаляет даже трудновыводимые пятна и придает одежде сияющую белизну. С помощью технологии против разводов МИФ помогает эффективно справляться с загрязнениями, не оставляя разводов на одежде. Только чистота и морозная свежесть! Не содержит фосфатов и хлорного отбеливателя. Удаляет трудновыводимые пятна, оставляя только аромат свежести и чистоты. МИФ тщательно подбирает ингредиенты для своих средств. Для отбеливания подбираются кислородосодержащие отбеливатели и безопасные дозировки. Все активные компоненты полностью биоразлагаемы. Для большего эффекта используйте кондиционер для белья LENOR: он не только придает свежесть и мягкость белью, но и защищает одежду от появления катышков, потери формы и потери цвета. Теперь любимые вещи прослужат еще дольше."
   },
   {
     "id": 13,
     "article": 102312,
     "barcode": 1023129097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Birax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
+    "name": "Стиральный порошок для цветного белья МИФ Свежий цвет, автомат",
+    "brand": "МИФ",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/miph-4.png",
     "image_type": "/icons/products/product-type-box.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 18,
+    "count_box": 1,
+    "weight": "2кг",
+    "size": "120x215x320",
+    "price": 349.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Стиральные порошки", "Средства для стирки"],
+    "description": "Стиральный порошок МИФ «Аквапудра Свежий Цвет» специально разработан для сохранения яркости цвета и придания свежести, с технологией против разводов. Стиральный порошок МИФ «Аквапудра» растворяется, едва коснувшись воды, и моментально активируется: удаляет даже трудновыводимые пятна и придает одежде сияющую чистоту. С помощью технологии против разводов МИФ помогает эффективно справляться с загрязнениями, не оставляя разводов на одежде. Только чистота и морозная свежесть! Не содержит фосфатов и хлорного отбеливателя. Удаляет трудновыводимые пятна. МИФ тщательно подбирает ингредиенты для своих средств. Для отбеливания подбираются кислородосодержащие отбеливатели и безопасные дозировки. Все активные компоненты полностью биоразлагаемы. Для большего эффекта используйте кондиционер для белья LENOR: он не только придает свежесть и мягкость белью, но и защищает одежду от появления катышков, потери формы и потери цвета. Теперь любимые вещи прослужат еще дольше."
   },
   {
     "id": 14,
     "article": 123812,
     "barcode": 1238129097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimyx",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
+    "name": "Стиральный порошок для цветного белья МИФ Свежий цвет, автомат",
+    "brand": "МИФ",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/miph-5.png",
     "image_type": "/icons/products/product-type-box.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 19,
+    "count_box": 1,
+    "weight": "400г",
+    "size": "34x123x191",
+    "price": 79.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Стиральные порошки", "Средства для стирки"],
+    "description": "Стиральный порошок МИФ «Аквапудра Свежий Цвет» специально разработан для сохранения яркости цвета и придания свежести, с технологией против разводов. Стиральный порошок МИФ «Аквапудра» растворяется, едва коснувшись воды, и моментально активируется: удаляет даже трудновыводимые пятна и придает одежде сияющую чистоту. С помощью технологии против разводов МИФ помогает эффективно справляться с загрязнениями, не оставляя разводов на одежде. Только чистота и морозная свежесть! Не содержит фосфатов и хлорного отбеливателя. Удаляет трудновыводимые пятна. МИФ тщательно подбирает ингредиенты для своих средств. Для отбеливания подбираются кислородосодержащие отбеливатели и безопасные дозировки. Все активные компоненты полностью биоразлагаемы. Для большего эффекта используйте кондиционер для белья LENOR: он не только придает свежесть и мягкость белью, но и защищает одежду от появления катышков, потери формы и потери цвета. Теперь любимые вещи прослужат еще дольше."
   },
   {
     "id": 15,
     "article": 289124,
     "barcode": 2891249097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Кондиционер для детского белья Е",
+    "brand": "E",
+    "manufacturer": "OOO «ЛАБ Индастриз»",
+    "image": "/images/products/e-1.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 26,
+    "count_box": 1,
+    "weight": "1л",
+    "size": "64x94x292",
+    "price": 119.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для стирки", "Кондиционеры"],
+    "description": "Кондиционер для белья Е Детский 1000 мл бережно и деликатно ухаживает за детской одеждой. Благодаря современной щадящей формуле из катионных ПАВ и глицерина кондиционер обладает эффективными преимуществами. Благодаря кондиционеру белье будет мягким и приятным для кожи ребенка. Средство для ополаскивания детских вещей дарит белью свежесть и приятный аромат, который сохраняется длительное время. Кондиционер Детский облегчает глажку и обладает антистатическим эффектом. Почему современные мамы отдают предпочтение детскому средству для белья? Кондиционер универсально подходит для ополаскивания всех видов тканей. Средство для ополаскивания белья можно использовать при машинной и ручной стирке. Все рекомендации по эффективному использованию кондиционера можно прочитать на упаковке. Кондиционер не вызывает аллергии и раздражений на чувствительной детской коже. С кондиционером для детей вещи будут всегда мягкими и приятными на ощупь."
   },
   {
     "id": 16,
     "article": 925701,
     "barcode": 9257019097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Кондиционер для белья Е Свежий",
+    "brand": "E",
+    "manufacturer": "OOO «ЛАБ Индастриз»",
+    "image": "/images/products/e-2.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 25,
+    "count_box": 1,
+    "weight": "1л",
+    "size": "64x94x299",
+    "price": 124.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для стирки", "Кондиционеры"],
+    "description": "Кондиционер для белья Е Свежий бережно и деликатно ухаживает за любой одеждой. Благодаря современной формуле из катионных ПАВ и глицерина кондиционер Свежий обладает эффективными преимуществами. Благодаря кондиционеру белье будет мягким и приятным на ощупь. Средство E Свежий дарит белью свежесть и приятный аромат, который сохраняется длительное время. Кондиционер E Свежий облегчает глажку и обладает антистатическим эффектом. Почему современные хозяйки отдают предпочтение средству для белья E Свежий? Кондиционер универсально подходит для ополаскивания всех видов тканей. Средство не содержит хлороформа, поэтому не вызывает аллергии. Перед применением средство E Свежий не требуется разбавлять водой. Средство для ополаскивания белья можно использовать при машинной и ручной стирке. Все рекомендации по эффективному использованию кондиционера можно прочитать на упаковке. Кондиционером можно ополаскивать детские вещи."
   },
   {
     "id": 17,
     "article": 820183,
     "barcode": 8201839097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Кондиционер для белья Е Свежий",
+    "brand": "E",
+    "manufacturer": "OOO «ЛАБ Индастриз»",
+    "image": "/images/products/e-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 6,
+    "count_box": 1,
+    "weight": "4л",
+    "size": "130x197x358",
+    "price": 409.99,
 
     "status": "popular",
-    "category": "Чистящие средства",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category": "household-chemicals",
+    "category_tags": ["Средства для стирки", "Кондиционеры"],
+    "description": "Кондиционер для белья E Свежий 4000мл из классической линейки подарит белью не только невероятную мягкость, но и изумительный аромат. Кондиционер для белья также облегчает глажку и обладает антистатическим эффектом. Для достижения большего эффекта начните знакомство с миром кондиционеров Е. Kондиционер для белья обеспечивает свежесть. Придает приятный аромат и мягкость белью. Кондиционер облегчает глажку и обладает антистатическим эффектом."
   },
   {
     "id": 18,
     "article": 829131,
     "barcode": 8291319097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
-    "image_type": "/icons/products/product-type-box.svg",
+    "name": "Кондиционер для белья Е Восточный сон",
+    "brand": "E",
+    "manufacturer": "OOO «ЛАБ Индастриз»",
+    "image": "/images/products/e-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
 
-    "count": 10,
-    "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "count": 6,
+    "count_box": 1,
+    "weight": "4л",
+    "size": "94x125x306",
+    "price": 409.99,
 
     "status": "popular",
     "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category_tags": ["Средства для стирки", "Кондиционеры"],
+    "description": "Кондиционер для белья E Восточный сон 4000мл из классической линейки подарит белью не только невероятную мягкость, но и изумительный аромат. Кондиционер для белья также облегчает глажку и обладает антистатическим эффектом. Для достижения большего эффекта начните знакомство с миром концентрированных кондиционеров Вернель."
   },
   {
     "id": 19,
     "article": 435611,
     "barcode": 4356119097548,
 
-    "name": "Порошок стиральный Автомат 100 пятен COMPACT",
-    "brand": "Bimax",
-    "manufacturer": "Нефис",
-    "image": "/images/products/bimax.png",
+    "name": "Средство для чистки CILLIT Bang Анти-жир универсальное",
+    "brand": "CILLIT",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/cillit-1.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 14,
+    "count_box": 1,
+    "weight": "750мл",
+    "size": "120x58x288",
+    "price": 319.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для чистки"],
+    "description": "Средство для чистки CILLIT Bang Анти-жир эффективно удаляет даже въевшийся пригоревший жир, а также масляные пятна и грязь за секунды. Идеально подходит для ежедневной уборки кухонных поверхностей различного происхождения (в том числе мрамор, натуральный камень) и принадлежностей, таких как плита, противни, кастрюли, сковороды, шампуры, гриль, разделочные доски и так далее."
+  },
+  {
+    "id": 20,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для чистки CILLIT Bang универсальное",
+    "brand": "CILLIT",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/cillit-2.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 39,
+    "count_box": 1,
+    "weight": "750мл",
+    "size": "428x118x190",
+    "price": 319.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для чистки"],
+    "description": "Средство для чистки CILLIT Bang универсальное эффективно удаляет известковый налет, мыльные разводы, ржавчину и въевшуюся грязь. Чистые поверхности блестят, как новые! Идеально подходит для уборки ежедневных или стойких загрязнений, для различных материалов (в том числе керамика, акрил) и таких поверхностей как ванная, душевая кабина, кафельная плитка, подоконники и другие."
+  },
+  {
+    "id": 21,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для чистки CILLIT Bang Антиналет+Блеск",
+    "brand": "CILLIT",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/cillit-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 14,
+    "count_box": 1,
+    "weight": "450мл",
+    "size": "110x47x275",
+    "price": 319.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для чистки"],
+    "description": "Средство для чистки CILLIT Bang Антиналет+Блеск эффективно справляется с сильными загрязнениями, удаляет известковый налет, ржавчину, мыльные разводы и жир. Восстанавливает чистоту и блеск различных поверхностей на кухне, в ванной комнате и туалете."
+  },
+  {
+    "id": 22,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для чистки от пятен и плесени CILLIT BANG",
+    "brand": "CILLIT",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/cillit-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 25,
+    "count_box": 1,
+    "weight": "750мл",
+    "size": "120x58x288",
+    "price": 319.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для чистки"],
+    "description": "Средство для чистки CILLIT BANG Антипятна+гигиена эффективно устраняет бактерии и побеждает пятнаразличного происхождения. Идеально подходит для уборки ежедневных или застарелых пятен, в том числе для различных материалов и поверхностей, таких как раковины, ванны, душевые кабины, рабочие поверхности на кухне и другие.."
+  },
+  {
+    "id": 23,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для чистки CILLIT Bang Мегаблеск+Защита",
+    "brand": "CILLIT",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/cillit-5.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 26,
+    "count_box": 1,
+    "weight": "450мл",
+    "size": "110x47x275",
+    "price": 219.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для чистки"],
+    "description": "Мощное чистящее средство CILLIT Bang Мегаблеск + Защита удаляет грязь, мыльные разводы и известковый налет. Специальные компоненты, входящие в состав, создают невидимое покрытие, которое предотвращает появление новых загрязнений уже после первого применения."
+  },
+  {
+    "id": 24,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство чистящее CILLIT Bang Мега Блеск и защита",
+    "brand": "CILLIT",
+    "manufacturer": "ООО «Рекитт Бенкизер»",
+    "image": "/images/products/cillit-6.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 12,
+    "count_box": 1,
+    "weight": "750мл",
+    "size": "58x120x288",
+    "price": 319.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для чистки"],
+    "description": "Мощное чистящее средство CILLIT Bang Мегаблеск + Защита удаляет грязь, мыльные разводы и известковый налет. Специальные компоненты, входящие в состав, создают невидимое покрытие, которое предотвращает появление новых загрязнений уже после первого применения."
+  },
+  {
+    "id": 25,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для мытья посуды FAIRY Апельсин и Лимонник",
+    "brand": "FAIRY",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/fairy-1.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 100,
+    "count_box": 1,
+    "weight": "900мл",
+    "size": "110x62x266",
+    "price": 189.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для посуды"],
+    "description": "Средство для мытья посуды FAIRY «Апельсин и Лимонник» содержит 100% биоразлагаемые компоненты. Линейка FAIRY «Ароматы» наполнит кухню свежими отдушками, превращая мытье посуды в приятное занятие. Густая пена FAIRY глубоко проникает в жир и расщепляет его изнутри, превосходно очищая даже самые сложные загрязнения. Активные компоненты формулы настолько эффективны, что запросто растворяют жир даже в холодной воде. Всего одна капля средства позволяет отмыть до 2-х раз больше посуды. Невзирая на мощь, FAIRY – это безопасный продукт, который легко смывается водой и полностью соответствует ГОСТу РФ."
+  },
+  {
+    "id": 26,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для мытья посуды FAIRY Сочный лимон",
+    "brand": "FAIRY",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/fairy-2.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 94,
+    "count_box": 1,
+    "weight": "650мл",
+    "size": "55x93x251",
+    "price": 169.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для посуды"],
+    "description": "Средство для мытья посуды FAIRY «Сочный лимон» обладает силой очищения, перед которой не устоят никакие загрязнения. Мощная формула «Поглощения Жира» глубоко проникает в жир и расщепляет его изнутри, превосходно очищая даже самые сложные загрязнения с любой посуды. Активные компоненты формулы настолько эффективны, что запросто растворяют жир даже в холодной воде. Одна капля средства позволяет отмыть до 2-х раз больше посуды. Невзирая на мощь, FAIRY – это безопасный продукт, который легко смывается водой и полностью соответствует ГОСТу РФ."
+  },
+  {
+    "id": 27,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для мытья посуды FAIRY Сочный лимон",
+    "brand": "FAIRY",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/fairy-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 100,
+    "count_box": 1,
+    "weight": "450мл",
+    "size": "93x55x206",
+    "price": 99.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для посуды"],
+    "description": "Средство для мытья посуды FAIRY «Сочный лимон» обладает силой очищения, перед которой не устоят никакие загрязнения. Мощная формула «Поглощения Жира» глубоко проникает в жир и расщепляет его изнутри, превосходно очищая даже самые сложные загрязнения с любой посуды. Активные компоненты формулы настолько эффективны, что запросто растворяют жир даже в холодной воде. Одна капля средства позволяет отмыть до 2-х раз больше посуды. Невзирая на мощь, FAIRY – это безопасный продукт, который легко смывается водой и полностью соответствует ГОСТу РФ."
+  },
+  {
+    "id": 28,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для мытья посуды FAIRY Зеленое яблоко",
+    "brand": "FAIRY",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/fairy-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 93,
+    "count_box": 1,
+    "weight": "900мл",
+    "size": "110x62x266",
+    "price": 189.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для посуды"],
+    "description": "Средство для мытья посуды FAIRY «Зеленое яблоко» содержит 100% биоразлагаемые компоненты. Линейка FAIRY «Ароматы» наполнит кухню свежими отдушками, превращая мытье посуды в приятное занятие. Густая пена FAIRY глубоко проникает в жир и расщепляет его изнутри, превосходно очищая даже самые сложные загрязнения. Активные компоненты формулы настолько эффективны, что запросто растворяют жир даже в холодной воде. Всего одна капля средства позволяет отмыть до 2-х раз больше посуды. Невзирая на мощь, FAIRY – это безопасный продукт, который легко смывается водой и полностью соответствует ГОСТу РФ."
+  },
+  {
+    "id": 29,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Средство для мытья посуды FAIRY Сочный лимон",
+    "brand": "FAIRY",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/fairy-5.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 49,
+    "count_box": 1,
+    "weight": "1350мл",
+    "size": "121x79x283",
+    "price": 279.99,
+
+    "status": "popular",
+    "category": "household-chemicals",
+    "category_tags": ["Средства для посуды"],
+    "description": "Средство для мытья посуды FAIRY «Сочный лимон» обладает силой очищения, перед которой не устоят никакие загрязнения. Мощная формула «Поглощения Жира» глубоко проникает в жир и расщепляет его изнутри, превосходно очищая даже самые сложные загрязнения с любой посуды. Активные компоненты формулы настолько эффективны, что запросто растворяют жир даже в холодной воде. Одна капля средства позволяет отмыть до 2-х раз больше посуды. Невзирая на мощь, FAIRY – это безопасный продукт, который легко смывается водой и полностью соответствует ГОСТу РФ."
+  },
+  {
+    "id": 30,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Зубная паста COLGATE Лечебные травы с натуральными ингредиентами для здоровья зубов и десен",
+    "brand": "COLGATE",
+    "manufacturer": "АО «Колгейт-Палмолив»",
+    "image": "/images/products/pasta-1.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 34,
+    "count_box": 1,
+    "weight": "100мл",
+    "size": "46x38x190",
+    "price": 119.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Зубные пасты"],
+    "description": "В зубной пасте COLGATE Лечебные травы научные достижения компании COLGATE были соединены с лучшими лечебными травами для здоровья ваших зубов и десен. Паста содержит натуральный экстракт ромашки, обладающий противовоспалительным, заживляющим эффектом, а также шалфея, который оказывает антисептическое действие. Мирра и эвкалипт полезны для ваших десен, поскольку способствуют их укреплению и обладают кровоостанавливающим действием. COLGATE Лечебные травы помогает сохранить зубы крепкими, а десны здоровыми. Содержит фтор и кальций для защиты зубов от кариеса."
+  },
+  {
+    "id": 31,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Зубная паста COLGATE Прополис отбеливающая с натуральными ингредиентами для бережного отбеливания зубов и сохранения здоровья десен",
+    "brand": "COLGATE",
+    "manufacturer": "АО «Колгейт-Палмолив»",
+    "image": "/images/products/pasta-2.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 91,
+    "count_box": 1,
+    "weight": "100мл",
+    "size": "46x38x190",
+    "price": 199.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Зубные пасты"],
+    "description": "Зубная паста COLGATE Прополис Отбеливающая с экстрактом прополиса бережно отбеливает зубы и помогает сохранить зубы и десны здоровыми. Обеспечивает защиту от кариеса и освежает дыхание. Целебные свойства прополиса были известны еще в древности. Его применяли в чистом виде, в отварах и в настоях, лечили раны и болезни внутренних органов. Обращаясь к старинным натуральным рецептам, человечество вновь оценило лечебные свойства прополиса. В стоматологии прополис используется как успокаивающее и антимикробное средство. Произведено с заботой, чтобы Вы могли чаще улыбаться."
+  },
+  {
+    "id": 32,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Зубная паста COLGATE Бережное отбеливание, с фтором и кальцием",
+    "brand": "COLGATE",
+    "manufacturer": "АО «Колгейт-Палмолив»",
+    "image": "/images/products/pasta-3.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 99,
+    "count_box": 1,
+    "weight": "100мл",
+    "size": "46x38x190",
+    "price": 119.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Зубные пасты"],
+    "description": "Со временем эмаль теряет свою естественную белизну. Зубная паста COLGATE Бережное Отбеливание бережно удаляет потемнения с поверхности зубов, восстанавливая их естественную белизну, и не повреждая зубную эмаль, а также укрепляет эмаль зубов и защищает от кариеса. Благодаря этому вы можете каждый день радовать себя и своих близких ослепительной улыбкой. Произведено с заботой, чтобы Вы могли чаще улыбаться. Рекомендовано: для ежедневного ухода, для устранения налета, для борьбы с неприятным запахом изо рта, для защиты от кариеса, для отбеливания зубов. Текстура зубной пасты: паста."
+  },
+  {
+    "id": 33,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Зубная паста COLGATE Бамбуковый уголь с мятой для отбеливания зубов и свежести дыхания",
+    "brand": "COLGATE",
+    "manufacturer": "АО «Колгейт-Палмолив»",
+    "image": "/images/products/pasta-4.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 15,
+    "count_box": 1,
+    "weight": "120г",
+    "size": "45x170x37",
+    "price": 169.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Зубные пасты"],
+    "description": "Отбеливающая зубная паста COLGATE Бамбуковый уголь подарит вам чистоту и свежесть дыхания надолго! Бамбуковый уголь известен своими очищающими свойствами, он поможет вам убрать налет с поверхности зубов. 2. Натуральные масла мяты освежают ваше дыхание и оставляют приятное послевкусие. Произведено с заботой, чтобы Вы могли чаще улыбаться. Рекомендовано: для всей семьи, для ежедневного ухода, для устранения налета, для борьбы с неприятным запахом изо рта, для защиты от кариеса, для отбеливания зубов. Текстура зубной пасты: черная паста. Объем: 100мл."
+  },
+  {
+    "id": 34,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Зубная паста COLGATE Макс Блеск Кристальная мята с отбеливающими пластинками для свежего дыхания и отбеливания зубов",
+    "brand": "COLGATE",
+    "manufacturer": "АО «Колгейт-Палмолив»",
+    "image": "/images/products/pasta-5.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 100,
+    "count_box": 1,
+    "weight": "100мл",
+    "size": "46x38x190",
+    "price": 169.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Зубные пасты"],
+    "description": "Отбеливающая зубная паста COLGATE Макс Блеск не только сделает ваши зубы белее, но и подарит невероятное ощущение свежести для еще большей уверенности в себе. Отбеливает зубы – благодаря отбеливающим пластинкам в составе. 2. Освежает дыхание – экстраосвежающая формула с передовой технологией интенсивно охлаждает, устраняет неприятный запах и дарит ощущение невероятной свежести в 10 раз дольше ощущение свежести по сравнению с другими зубными пастами COLGATE с фторидом. 3. Помогает бороться с кариесом 4. Приятный вкус мяты. Рекомендовано: для всей семьи. для ежедневного ухода. для профилактики кариеса. для устранения налета. для борьбы с неприятным запахом изо рта. Текстура: голубой гель с белыми пластинками. Пластинки растворяются во время чистки зубов. Объем: 100мл."
+  },
+  {
+    "id": 35,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Пена для бритья NIVEA Men для чувствительной кожи",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/pena-1.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 24,
+    "count_box": 1,
+    "weight": "200мл",
+    "size": "53x53x181",
+    "price": 269.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Пена для бритья"],
+    "description": "Попробуйте успокаивающую пену для бритья для чувствительной кожи без спирта от NIVEA Men. Защита от раздражения и чистое бритье! Пена для бритья обладает улучшенной формулой, обогащенной комплексом ромашки и гамамелиса, которая помогает защитить кожу от раздражения во время бритья. Результат: ультрагладкое и комфортное бритье. Дерматологически протестировано. Не содержит этилового спирта. Рекомендуется дополнить уход, используя лосьон или бальзам после бритья из успокаивающей линейки для чувствительной кожи от NIVEA Men."
+  },
+  {
+    "id": 36,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Пена для бритья NIVEA Men Охлаждающая",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/pena-2.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 17,
+    "count_box": 1,
+    "weight": "200мл",
+    "size": "53x53x181",
+    "price": 269.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Пена для бритья"],
+    "description": "Пена для бритья NIVEA Men охлаждающая создана на основе новой мягкой формулы без спирта и ментола и обогащена экстрактами ромашки и морских водорослей. Она мгновенно успокаивает кожу даже во время бритья, одновременно обеспечивая приятный охлаждающий эффект. Пена разработана специально для чувствительной мужской кожи, склонной к раздражению и шелушению. Она обеспечивает легкое скольжение бритвы, освежает и успокаивает, обладает приятным мужским ароматом. Для предотвращения дискомфорта во время бритья и после рекомендуется использовать продукты линейки NIVEA Men Охлаждающий для чувствительной кожи."
+  },
+  {
+    "id": 37,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Пена для бритья NIVEA Men Восстанавливающая",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/pena-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 7,
+    "count_box": 1,
+    "weight": "200мл",
+    "size": "50x50x179",
+    "price": 269.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Пена для бритья"],
+    "description": "Бритье оставляет микроповреждения на коже? Попробуйте восстанавливающую Пену для бритья без спирта для чувствительной кожи от NIVEA Men. Формула пены с экстрактами ромашки и солодки, известных своими заживляющими свойствами, способствует восстановлению естественного состояния кожи уже во время бритья. Дерматологически протестировано. Пена для бритья специально для мужчин с чувствительной кожей. Не содержит этилового спирта. Рекомендуется дополнить уход, используя бальзам или лосьон после бритья из восстанавливающей линейки для чувствительной кожи от NIVEA Men."
+  },
+  {
+    "id": 38,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Пена для бритья NIVEA Men Fresh kick",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/pena-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 12,
+    "count_box": 1,
+    "weight": "200мл",
+    "size": "53x53x181",
+    "price": 269.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Пена для бритья"],
+    "description": "Пена для бритья NIVEA Men Fresh kick содержит кактусовую воду для увлажнения и экстракт мяты для ощущения свежести и прохлады во время бритья. Для достижения максимального результата рекомендуется использовать средство вместе с бальзамом или лосьоном после бритья NIVEA Men Fresh Kick. Дерматологически протестировано."
+  },
+  {
+    "id": 39,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Пена для бритья NIVEA Men Защита и уход увлажняющая",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/pena-5.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 12,
+    "count_box": 1,
+    "weight": "200мл",
+    "size": "53x53x181",
+    "price": 269.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Пена для бритья"],
+    "description": "Попробуйте увлажняющую пену для бритья «Защита и уход» для всех типов кожи от NIVEA Men. Частое бритье может стать испытанием для кожи, поэтому ей нужны надежная защита и уход. Пена для бритья обладает формулой с Алоэ Вера и Провитамином B5, которая ухаживает за кожей и защищает ее от сухости: обеспечивает гладкое и комфортное бритье, защищает кожу от микроповреждений и ощущения стянутости, сохраняет естественный защитный барьер кожи. Дерматологически протестировано. Рекомендуется дополнить уход, используя лосьон или бальзам после бритья из увлажняющей линейки «Защита и уход» от NIVEA Men для всех типов кожи."
+  },
+  {
+    "id": 40,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бальзам для губ NIVEA Сияние жемчуга с экстрактом шелка",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/balm-1.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 11,
+    "count_box": 1,
+    "weight": "4.8г",
+    "size": "75x21x110",
+    "price": 209.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Бальзамы для губ"],
+    "description": "Бальзам для губ «Сияние жемчуга» от NIVEA с натуральным маслом дерева ши и Витаминами С и Е увлажняет губы 24 часа и ухаживает за губами, придавая им гладкость и защищая от мороза и ветра. Тающая усовершенствованная формула с экстрактом жемчуга дарит губам естественное перламутровое сияние и красивый нежно-розовый цвет. Подходит для использования в любое время года для естественного сияния и легкого увлажнения. Натуральные масла и витамины в составе. Гигиеническая помада ухаживает за губами, придавая им более гладкий вид и жемчужное сияние. Упаковка из переработанного картона: подходит для дальнейшей переработки. Дерматологически протестировано."
+  },
+  {
+    "id": 41,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бальзам для губ NIVEA Клубничное сияние",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/balm-2.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 100,
+    "count_box": 1,
+    "weight": "4.8г",
+    "size": "75x21x110",
+    "price": 199.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Бальзамы для губ"],
+    "description": "Притягательный аромат, соблазнительный оттенок, уход в одной помаде. Бальзам для губ «Клубничное сияние» от NIVEA придает красивый клубнично-красный оттенок и великолепный аромат свежей клубники, сохраняя губы мягкими и нежными. Гигиеническая помада ухаживает за губами, придавая им более гладкий и увлажненный вид. Усовершенствованная ухаживающая формула с натуральным маслом дерева ши и витаминами С и Е мгновенно тает на губах, придавая гладкость, защищая от мороза, ветра и сухости. Увлажнение 24 часа. Подходит для использования в любое время года, особенно в весенне-летний период для естественного сияния и легкого увлажнения. Натуральные масла и витамины в составе. Дерматологически протестировано. Без ингредиентов животного происхождения. Упаковка из переработанного картона: подходит для дальнейшей переработки."
+  },
+  {
+    "id": 42,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бальзам для губ NIVEA Вишневое сияние",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/balm-3.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 401,
+    "count_box": 1,
+    "weight": "4.8г",
+    "size": "75x21x110",
+    "price": 206.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Бальзамы для губ"],
+    "description": "Притягательный аромат, соблазнительный оттенок, уход в одной помаде. Бальзам для губ «Вишневое сияние» от NIVEA придает восхитительный нежно-алый оттенок и великолепный аромат, сохраняя губы мягкими и красивыми. Гигиеническая помада ухаживает за губами, придавая им более гладкий и увлажненный вид. Усовершенствованная ухаживающая формула с натуральным маслом дерева ши и витаминами С и Е мгновенно тает на губах, придавая гладкость, защищая от мороза, ветра и сухости. Увлажнение 24 часа. Подходит для использования в любое время года, особенно в весенне-летний период для естественного сияния и легкого увлажнения. Натуральные масла и витамины в составе. Дерматологически протестировано. Без ингредиентов животного происхождения. Упаковка из переработанного картона: подходит для дальнейшей переработки."
+  },
+  {
+    "id": 43,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бальзам для губ NIVEA Аква-уход",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/balm-4.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 19,
+    "count_box": 1,
+    "weight": "4.8г",
+    "size": "75x21x110",
+    "price": 199.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Бальзамы для губ"],
+    "description": "Хотите, чтобы губы оставались увлажненными 24 часа? Попробуйте бальзам для губ «Аква-уход» от NIVEA с усовершенствованной формулой, натуральным маслом дерева ши и витаминами С и Е. Легкая водостойкая формула бальзама для губ мгновенно тает на губах, придавая мягкость и гладкость, защищает губы от мороза и ветра, а наличие фактора защиты SPF15 предохраняет от воздействия UVA/UVB излучения. Подходит для использования в любое время года, особенно в сухой летний период или холодный зимний. Гигиеническая помада ухаживает за губами, придавая им более гладкий и увлажненный вид. Натуральные масла и витамины в составе. Дерматологически протестировано. Упаковка из переработанного картона: подходит для дальнейшей переработки."
+  },
+  {
+    "id": 44,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бальзам для губ NIVEA SOS-уход",
+    "brand": "NIVEA",
+    "manufacturer": "ООО «Байерсдорф»",
+    "image": "/images/products/balm-5.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 100,
+    "count_box": 1,
+    "weight": "4.8г",
+    "size": "75x21x110",
+    "price": 206.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Бальзамы для губ"],
+    "description": "Хотите увлажнить и восстановить кожу ваших губ? Усовершенствованная ухаживающая формула бальзама для губ SOS-уход от NIVEA с витаминами С и Е, маслом дерева ши и пантенолом мгновенно тает на губах, увлажняя их в течение 24+ часа. Подходит для использования в любое время года, особенно в сухой летний период или холодный зимний. Бальзам для губ тает на губах, придавая мягкость и гладкость, защищает губы от мороза и ветра, а наличие фактора защиты SPF 15 предохраняет от воздействия UVA/UVB излучения. Гигиеническая помада подходит для восстановления сухих, потрескавшихся и чувствительных губ. Упаковка из переработанного картона: подходит для дальнейшей переработки."
+  },
+  {
+    "id": 45,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Шампунь против перхоти HEAD&SHOULDERS Основной уход",
+    "brand": "HEAD&SHOULDERS",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/shampoo-1.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 36,
+    "count_box": 1,
+    "weight": "400мл",
+    "size": "44x76x212",
+    "price": 510.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Шампуни"],
+    "description": "Шампунь против перхоти HEAD&SHOULDERS «Основной уход» обеспечивает защиту от перхоти до 72 часов (видимой перхоти при регулярном применении). Его усовершенствованная формула протестирована дерматологами, pH сбалансирована и усилена антиоксидантами для бережного ухода за волосами и кожей головы. Шампунь «Основной уход» очищает волосы, увлажняя и даря ощущение свежести. HEAD&SHOULDERS – бренд шампуней № 1 в России (расчет P&G на основании годовых внешних продаж в категории «шампуни»), который также заботится о планете: флакон пригоден для переработки (за исключением колпачка и этикетки)."
+  },
+  {
+    "id": 46,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Шампунь-бальзам против перхоти HEAD&SHOULDERS",
+    "brand": "HEAD&SHOULDERS",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/shampoo-2.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 100,
+    "count_box": 1,
+    "weight": "400мл",
+    "size": "44x76x212",
+    "price": 379.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Шампуни"],
+    "description": "Шампунь-бальзам против перхоти HEAD&SHOULDERS «Основной уход 2в1» обеспечивает защиту от перхоти до 72 часов (видимой перхоти при регулярном применении). Его усовершенствованная формула протестирована дерматологами, pH сбалансирована и усилена антиоксидантами для бережного ухода за волосами и кожей головы. Шампунь «Основной уход» очищает волосы, увлажняя и даря ощущение свежести. HEAD&SHOULDERS – бренд шампуней № 1 в России (расчет P&G на основании годовых внешних продаж в категории «шампуни»), который также заботится о планете: флакон пригоден для переработки (за исключением колпачка и этикетки)."
+  },
+  {
+    "id": 47,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Шампунь-бальзам против перхоти HEAD&SHOULDERS",
+    "brand": "HEAD&SHOULDERS",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/shampoo-3.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 25,
+    "count_box": 1,
+    "weight": "600мл",
+    "size": "55x92x225",
+    "price": 719.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Шампуни"],
+    "description": "Шампунь-бальзам против перхоти HEAD&SHOULDERS «Основной уход 2в1» обеспечивает защиту от перхоти до 72 часов (видимой перхоти при регулярном применении). Его усовершенствованная формула протестирована дерматологами, pH сбалансирована и усилена антиоксидантами для бережного ухода за волосами и кожей головы. Шампунь «Основной уход» очищает волосы, увлажняя и даря ощущение свежести. HEAD&SHOULDERS – бренд шампуней № 1 в России (расчет P&G на основании годовых внешних продаж в категории «шампуни»), который также заботится о планете: флакон пригоден для переработки (за исключением колпачка и этикетки)."
+  },
+  {
+    "id": 48,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Шампунь-бальзам против перхоти HEAD&SHOULDERS Ментол",
+    "brand": "HEAD&SHOULDERS",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/shampoo-4.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 19,
+    "count_box": 1,
+    "weight": "600мл",
+    "size": "55x92x225",
+    "price": 719.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Шампуни"],
+    "description": "Шампунь-бальзам против перхоти HEAD&SHOULDERS «Ментол 2в1» обеспечивает защиту от перхоти до 72 часов (видимой перхоти при регулярном применении). Его усовершенствованная формула протестирована дерматологами, pH сбалансирована и усилена антиоксидантами для бережного ухода за волосами и кожей головы. Шампунь против перхоти 2 в 1 «Ментол» эффективно очищает и увлажняет волосы, придавая им ментоловую свежесть. HEAD&SHOULDERS – бренд шампуней № 1 в России (расчет P&G на основании годовых внешних продаж в категории «шампуни»), который также заботится о планете: флакон пригоден для переработки (за исключением колпачка и этикетки)."
+  },
+  {
+    "id": 49,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Шампунь против перхоти HEAD&SHOULDERS",
+    "brand": "HEAD&SHOULDERS",
+    "manufacturer": "ООО «Проктер Энд Гэмбл Дистрибьюторская Компания»",
+    "image": "/images/products/shampoo-5.png",
+    "image_type": "/icons/products/product-type-buttle.svg",
+
+    "count": 29,
+    "count_box": 1,
+    "weight": "400мл",
+    "size": "44x76x212",
+    "price": 524.99,
+
+    "status": "popular",
+    "category": "cosmetics-and-hygiene",
+    "category_tags": ["Шампуни"],
+    "description": "Шампунь против перхоти HEAD&SHOULDERS «Увлажняющий уход» обеспечивает защиту от перхоти до 72 часов (видимой перхоти при регулярном применении). Его усовершенствованная формула протестирована дерматологами, pH сбалансирована и усилена антиоксидантами для бережного ухода за волосами и кожей головы. Шампунь против перхоти «Увлажняющий уход» для сухой кожи головы глубоко очищает волосы, увлажняя их и даря ощущение свежести. HEAD&SHOULDERS – бренд шампуней № 1 в России (расчет P&G на основании годовых внешних продаж в категории «шампуни»), который также заботится о планете: флакон пригоден для переработки (за исключением колпачка и этикетки)."
+  },
+  {
+    "id": 50,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бумага туалетная ZEWA Deluxe 3-слоя с ароматом персика",
+    "brand": "ZEWA",
+    "manufacturer": "ООО «ЭвоКом»",
+    "image": "/images/products/zewa-1.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 100,
+    "count_box": 8,
+    "weight": "мало",
+    "size": "460x190x120",
+    "price": 219.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Туалетная бумага"],
+    "description": "Шелковистая 3х-слойная туалетная бумага ZEWA Deluxe с ароматом персика. Впитывающие подушечки, созданные по особой технологии, обеспечивают деликатное очищение и комфорт. Втулка не смывается."
+  },
+  {
+    "id": 51,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бумага туалетная ZEWA Deluxe без аромата 3-слоя",
+    "brand": "ZEWA",
+    "manufacturer": "ООО «ЭвоКом»",
+    "image": "/images/products/zewa-2.png",
     "image_type": "/icons/products/product-type-box.svg",
 
     "count": 10,
     "count_box": 2,
-    "weight": "1500 г",
-    "size": "10x10x10",
-    "price": 48.76,
+    "weight": "мало",
+    "size": "428x118x190",
+    "price": 219.99,
 
     "status": "popular",
-    "category": "household-chemicals",
-    "category_tags": ["Тег 1", "Тег 2", "Тег 3"],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque libero alias molestias voluptatibus debitis, quis aut corrupti tempora dignissimos. Corrupti accusamus ducimus nesciunt dignissimos ea, provident quod sequi voluptatem."
+    "category": "household-goods",
+    "category_tags": ["Туалетная бумага"],
+    "description": "Бумага туалетная ZEWA Deluxe белая 3-слойная отличается шелковистой текстурой и лишена аромата. Благодаря созданным по особой технологии впитывающим подушечкам она обеспечивает деликатное очищение и комфорт. Втулка бумаги не смывается."
+  },
+  {
+    "id": 52,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бумага туалетная ZEWA Deluxe без аромата 3-слоя",
+    "brand": "ZEWA",
+    "manufacturer": "ООО «ЭвоКом»",
+    "image": "/images/products/zewa-3.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 52,
+    "count_box": 12,
+    "weight": "мало",
+    "size": "428x118x285",
+    "price": 319.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Туалетная бумага"],
+    "description": "Бумага туалетная ZEWA Deluxe белая 3-слойная отличается шелковистой текстурой и лишена аромата. Благодаря созданным по особой технологии впитывающим подушечкам она обеспечивает деликатное очищение и комфорт. Втулка бумаги не смывается."
+  },
+  {
+    "id": 53,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бумага туалетная ZEWA Just1 4-слоя",
+    "brand": "ZEWA",
+    "manufacturer": "ООО «ЭвоКом»",
+    "image": "/images/products/zewa-4.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 81,
+    "count_box": 8,
+    "weight": "мало",
+    "size": "449x122x214",
+    "price": 399.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Туалетная бумага"],
+    "description": "Одного листочка достаточно. Еще толще и лучше впитывает. ZEWA Just 1 дарит ощущение безупречной чистоты: каждый листочек на 20% больше и 50% толще, поэтому впитывает в 2 раза лучше, чем обычная туалетная бумага. Втулка не смывается."
+  },
+  {
+    "id": 54,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бумага туалетная ZEWA Плюс Сирень 2-слоя",
+    "brand": "ZEWA",
+    "manufacturer": "ООО «ЭвоКом»",
+    "image": "/images/products/zewa-5.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 48,
+    "count_box": 8,
+    "weight": "мало",
+    "size": "436x109x190",
+    "price": 199.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Туалетная бумага"],
+    "description": "Бумага туалетная ZEWA Плюс Сирень ‒ это прекрасное сочетание мягкости и прочности. Белая 2-х слойная туалетная бумага с ароматом сирени. Бумага подойдет всем членам вашей семьи – и тем, кому нужна мягкая бумага, и тем, кому важна прочность. Позаботьтесь о себе и своих близких вместе с ZEWA.Втулка не смывается."
+  },
+  {
+    "id": 55,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Бумага туалетная ZEWA Deluxe Ромашка 3-слоя",
+    "brand": "ZEWA",
+    "manufacturer": "ООО «ЭвоКом»",
+    "image": "/images/products/zewa-6.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 55,
+    "count_box": 8,
+    "weight": "мало",
+    "size": "428x118x190",
+    "price": 219.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Туалетная бумага"],
+    "description": "Шелковистая 3х-слойная туалетная бумага ZEWA Deluxe Ромашка. Впитывающие подушечки, созданные по особой технологии, обеспечивают деликатное очищение и комфорт. Втулка не смывается."
+  },
+  {
+    "id": 56,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Губка для посуды 365 ДНЕЙ большая",
+    "brand": "365 ДНЕЙ",
+    "manufacturer": "ООО «ЛентаРУ»",
+    "image": "/images/products/sponges-1.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 86,
+    "count_box": 5,
+    "weight": "мало",
+    "size": "90х63х25190х63х25",
+    "price": 32.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Средства для уборки"],
+    "description": "Губка для посуды 365 ДНЕЙ удобна в использовании, поскольку имеет большой размер. Ее можно применять как для мытья посуды, так и для очищения кухонной мебели и бытовой техники. У губки две стороны: жесткая часть предназначена для удаления трудных загрязнений, а мягкий слой бережно и деликатно устранит остатки пищи с поверхности фарфоровых тарелок, а также сковород с антипригарным покрытием."
+  },
+  {
+    "id": 57,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Губка для посуды 365 ДНЕЙ Мини",
+    "brand": "365 ДНЕЙ",
+    "manufacturer": "ООО «ЛентаРУ»",
+    "image": "/images/products/sponges-2.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 50,
+    "count_box": 12,
+    "weight": "мало",
+    "size": "80x50x25",
+    "price": 34.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Средства для уборки"],
+    "description": "Губка для посуды 365 ДНЕЙ Мини имеет небольшой размер поэтому идеально подходит для мытья тарелок, блюдец, а также предметов сервировки стола – рюмок, фужеров, чашек и столовых приборов. Мягкая сторона создает густую пену и натирает посуду до блеска. Жесткий абразивный слой позволяет быстро удалить даже самое непростое загрязнение. Губка изготовлена из полиуретана и фибры, поэтому обладает повышенными износостойкими характеристиками."
+  },
+  {
+    "id": 58,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Губка для посуды 365 ДНЕЙ Люкс профилированная",
+    "brand": "365 ДНЕЙ",
+    "manufacturer": "ООО «ЛентаРУ»",
+    "image": "/images/products/sponges-3.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 62,
+    "count_box": 5,
+    "weight": "мало",
+    "size": "75х60х40",
+    "price": 39.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Средства для уборки"],
+    "description": "Губка для посуды 365 ДНЕЙ Люкс профилированная хорошо вспенивает моющее средство и быстро устраняет даже самые сложные загрязнения с поверхности плит, раковин, а также сковород, кастрюль, тарелок и другой посуды. Абразивный слой без лишний усилий удаляет остатки пригоревшей пищи, а также жир. Губка легко очищается под проточной водой и быстро сохнет, не оставляя неприятного запаха. Изготовлена из полиуретана и фибры, поэтому обладает повышенными износостойкими характеристиками."
+  },
+  {
+    "id": 59,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Губки для посуды ЛЕНТА профильные",
+    "brand": "ЛЕНТА",
+    "manufacturer": "ООО «ЛентаРУ»",
+    "image": "/images/products/sponges-4.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 229,
+    "count_box": 6,
+    "weight": "мало",
+    "size": "90х70х44",
+    "price": 79.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Средства для уборки"],
+    "description": "Губки для посуды ЛЕНТА профильные прекрасно подходят для ежедневной уборки на кухне. Они состоят из двух слоев: мягкая часть из пористого поролона используется для чистки деликатных поверхностей, а жесткий абразивный материал предназначен для удаления самых трудных загрязнений. Губка хорошо пенится и быстро сохнет."
+  },
+  {
+    "id": 60,
+    "article": 435611,
+    "barcode": 4356119097548,
+
+    "name": "Губки для посуды ЛЕНТА Bubble effect",
+    "brand": "ЛЕНТА",
+    "manufacturer": "ООО «ЛентаРУ»",
+    "image": "/images/products/sponges-5.png",
+    "image_type": "/icons/products/product-type-box.svg",
+
+    "count": 68,
+    "count_box": 4,
+    "weight": "мало",
+    "size": "90х60х30",
+    "price": 47.99,
+
+    "status": "popular",
+    "category": "household-goods",
+    "category_tags": ["Средства для уборки"],
+    "description": "Губки для посуды Bubble effect 9х6х3см от бренда ЛЕНТА облегчат каждодневные будни каждой хозяйки. Они без труда справляются с различными загрязнениями и обеспечивают безупречную чистоту в каждом доме. В удобной упаковке 4 мягкие губки."
   }
-]
+] 

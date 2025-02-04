@@ -1,0 +1,14 @@
+@use '/src/styles/variables.scss' as *;
+
+.brand-filter__search {
+	border-radius: 12px;
+	padding: 16px;
+	color: $color-secondary;
+	box-shadow: inset 2px 2px 4px rgba($color-secondary, 0.5);
+	background-color: $color-white;
+	transition: all $duration ease;
+
+	&:hover {
+		background-color: $color-faint;
+	}
+}

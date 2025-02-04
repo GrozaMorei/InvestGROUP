@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react';
 import products from '@/data/products.json';
 import './PriceFilter.scss';
 
-export default function PriceFilter({ delUpdate }) {
-  const maxPriceProduct = Math.max(...products.map(product => product.price));
+export default function PriceFilter({ delUpdate, category }) {
+  const filteredProduct = products.filter((product) => product.category === category);
+  const maxPriceProduct = Math.max(...filteredProduct.map(product => product.price));
 
   const [maxPrice, setMaxPrice] = useState(maxPriceProduct);
   const [minPrice, setMinPrice] = useState(0);
@@ -12,6 +13,8 @@ export default function PriceFilter({ delUpdate }) {
   useEffect(() => {
     setMaxPrice(maxPriceProduct);
     setMinPrice(0);
+    localStorage.setItem('minPrice', '0');
+    localStorage.setItem('maxPrice', '100000');
   }, [delUpdate]);
 
   // Функция записи минимального значения
@@ -63,7 +66,7 @@ export default function PriceFilter({ delUpdate }) {
           value={minPrice}
           onBlur={handleMinPriceBlur}
           onChange={(e) => setMinPrice(e.target.value)}
-          placeholder="Мин. значение"
+          placeholder="От..."
         />
         <p>-</p>
         <input
@@ -71,7 +74,7 @@ export default function PriceFilter({ delUpdate }) {
           value={maxPrice}
           onBlur={handleMaxPriceBlur}
           onChange={(e) => setMaxPrice(e.target.value)}
-          placeholder="Макс. значение"
+          placeholder="...до"
         />
       </div>
     </div>

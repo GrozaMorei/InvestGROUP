@@ -26,6 +26,15 @@
 
 			border-radius: 20px;
 			background-color: $color-faint;
+
+			-moz-appearance: textfield;
+			-webkit-appearance: none;
+			appearance: none;
+		}
+			
+		input::-webkit-inner-spin-button,
+		input::-webkit-outer-spin-button {
+			display: none;
 		}
 	}
 }

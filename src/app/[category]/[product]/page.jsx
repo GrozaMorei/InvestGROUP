@@ -10,13 +10,13 @@ export default async function Product({ params }) {
 
   if (!currentProduct) {
     return (
-      <Undifine message={ 'товар не найден' }/>
+      <Undifine message={ 'Товар по вашему запросу не найден' } margin='40px 0'/>
     );
   }
 
   return (
     <>
-      <Crumbs currentProduct= { currentProduct }/>
+      <Crumbs currentProduct= { currentProduct } margin={'20px 0 0'}/>
       <ProductInfo currentProduct={ currentProduct } />
       <SimilarProducts currentProduct={ currentProduct } />
     </>

@@ -1,15 +1,76 @@
 @use '/src/styles/variables.scss' as *;
 
 .filters {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	width: 290px;
+	position: relative;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		@media (max-width: $tablet) {
+			margin-bottom: 0;
+		} 
+	}
 
 	&__title {
 		font-size: 16px;
 		font-weight: 500;
 		text-transform: uppercase;
 		color: $color-primary;
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 32px;
+		width: 32px;
+		background-color: $color-faint;
+		border-radius: 50%;
+		transition: all $duration ease;
+
+		img {
+			transition: all $duration ease;
+			transform: rotate(180deg);
+		}
+	}
+
+	&__btn.active img {
+		transform: rotate(0deg);
+	}
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		width: 290px;
+	}
+
+	&__inner-mobile {
+		position: absolute;
+		top: 60px;
+		left: -110%;
+		z-index: 3;
+
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+
+		width: 100%;
+		padding: 15px;
+    border-radius: 0 40px 40px 0;
+		box-shadow: 0px 0px 20px rgba($color-secondary, 0.4);
+		background-color: $color-white;
+		transition: all 1.5s ease;
+
+		&.active {
+			left: -15px;
+		}
+
+		@media (max-width: $mobile) {
+			gap: 10px;
+		}
 	}
 }

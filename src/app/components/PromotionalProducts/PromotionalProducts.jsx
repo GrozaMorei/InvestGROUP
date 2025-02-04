@@ -1,18 +1,16 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import products from '@/data/products.json';
+import CustomSlider from '../UI/CustomSlider/CustomSlider';
 import ProductCard from '../ProductCard/ProductCard';
 import './PromotionalProducts.scss';
 
 const PromotionalProducts = () => {
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  // Фильтруем только популярные товары
+  const popularProducts = products.filter((product) => product.status === 'popular');
+
+  // Формируем массив карточек для слайдера
+  const itemsCard = popularProducts.map((product) => (
+    <ProductCard key={product.id} product={product} />
+  ));
 
   return (
     <section className="promo-products">
@@ -22,16 +20,7 @@ const PromotionalProducts = () => {
         </h2>
 
         <ul className="promo-products__slider">
-          <Slider {...sliderSettings}>
-            {products
-              .slice(0, 4)
-              .filter((product) => product.status === 'popular')
-              .map((product) => (
-                <li key={product.id}>
-                  <ProductCard product={product} />
-                </li>
-              ))}
-          </Slider>
+          <CustomSlider items={itemsCard} maxItems={6} />
         </ul>
 
         <ul className="promo-products__list">
@@ -39,9 +28,7 @@ const PromotionalProducts = () => {
             .filter((product) => product.status === 'popular')
             .slice(0, 8)
             .map((product) => (
-              <li key={product.id} className="promo-products__item">
-                <ProductCard product={product} />
-              </li>
+                <ProductCard key={product.id} product={product}/>
             ))}
         </ul>
       </div>

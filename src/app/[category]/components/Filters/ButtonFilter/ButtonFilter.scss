@@ -15,9 +15,18 @@
 		img {
 			height: 30px;
 		}
+
+		@media (max-width: $mobile) {
+			height: 40px;
+			width: 40px;
+		}
 	}
 
 	&__btn {
 		width: 100%;
+
+		@media (max-width: $mobile) {
+			border-radius: 16px;
+		}
 	}
 }

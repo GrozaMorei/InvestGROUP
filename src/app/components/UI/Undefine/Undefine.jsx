@@ -1,13 +1,13 @@
 import './Undefine.scss';
 
-export default function Undefine({ message }) {
+export default function Undefine({ message, margin = '0 0 0 0' }) {
   return (
-		<section className='product-undefine'>
+		<div className='product-undefine' style={{ margin }}>
 			<div className="container">
 				<div className="product-undefine__inner">
-					<h1 className='product-undefine--title'>Упс, { message } :с</h1>
+					<h1 className='product-undefine--title'>{ message }</h1>
 				</div>
 			</div>
-		</section>
+		</div>
   );
 }

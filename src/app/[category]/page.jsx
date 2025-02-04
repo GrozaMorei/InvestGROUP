@@ -1,21 +1,23 @@
 'use client';
 
-import { use, useState } from 'react';
+import { use, useState, useMemo } from 'react';
 import categories from '@/data/categories';
 
 import Undefine from '../components/UI/Undefine/Undefine';
 import Filters from './components/Filters/Filters';
 import CategoryList from './components/CategoryList/CategoryList';
-import CategoryHeader from './components/CategoryHeader/CategoryHeader'
+import CategoryHeader from './components/CategoryHeader/CategoryHeader';
+import CategoryTags from './components/CategoryTags/CategoryTags';
+import BreadCrumps from '../components/Crumbs/Crumbs';
 
 import './page.scss';
 
 export default function Category({ params }) {
-  // Првоерка правильности маршрута
+  // Проверка правильности маршрута
   const { category } = use(params);
   const isCategoryValid = categories.some(cat => cat.name === category);
   if (!isCategoryValid) {
-    return <Undefine message={'категория не найдена'} />;
+    return <Undefine message={'Раздел не найден'} margin='40px 0'/>;
   }
 
   // Получение перевода категории
@@ -27,13 +29,19 @@ export default function Category({ params }) {
     setUpdate((prev) => !prev);
   }
 
+  // Настройка адаптива
+  const isMobile = useMemo(() => window.innerWidth <= 800, []);
+
   return (
     <>
+      <BreadCrumps margin={'20px 0'}/>
       <div className='container'>
-        <CategoryHeader title={title}/>
+        <CategoryHeader title={title} toggleUpdate={toggleUpdate}/>
+        {isMobile ? <Filters toggleUpdate={toggleUpdate} category={category} type={'mobile'}/> : <></>}
+        <CategoryTags toggleUpdate={toggleUpdate} category={category}/>
         <div className='category__inner'>
-          <Filters toggleUpdate={toggleUpdate}/>
-          <CategoryList update={update}/>
+          {isMobile ? <></> : <Filters toggleUpdate={toggleUpdate} category={category}/>}
+          <CategoryList update={update} category={category} />
         </div>
       </div>
     </>

@@ -114,6 +114,22 @@ html {
   &__no-scroll {
     overflow: hidden;
   }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $color-faint;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-accent;
+    border-radius: 4px;
+    transition: all ease $duration;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: $color-active;
+  }
 }
 
 .container {
@@ -133,8 +149,18 @@ html {
   section {
     padding: 50px 0;
 
+    &:first-child {
+      padding: 0;
+      padding-bottom: 50px;
+    }
+
     @media (max-width: $tablet) {
       padding: 25px 0;
+
+      &:first-child {
+        padding: 0;
+        padding-bottom: 25px;
+      }
     }
   }
 }
